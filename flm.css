@@ -1,0 +1,100 @@
+#pgcolor {
+	background-color: #000;
+	margin: -8px -8px 0px -8px;
+}
+
+#sectioncolortwo {
+	background-color: #fff;
+	margin: -8px -8px 0px -8px;
+}
+
+section {
+	display: block;
+	margin: 0 auto;
+	max-width: 1280px;
+	min-height: 425px;
+	padding: 2em 0 0;
+}
+
+#pad, #hope, #mission { 
+	background-image: "file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/gradient.png";
+	background-repeat: repeat-y;
+	background-size: 100% 100%;
+}
+
+#outer {
+	order-left: 26px transparent solid;
+	border-right: 26px transparent solid;
+	max-width: 928px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	font: 300 3.6em/1.25em 'Open Sans',arial,sans-serif;
+	background: -webkit-linear-gradient(top,#ddd 0%,#9c9c9c 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin:  0 .1em;
+	text-align: center;
+	position: relative;
+
+}
+
+h2 {
+
+	text-align: center;
+	font: 300 2.6em/1.25em 'Open Sans',arial,sans-serif;
+	background: -webkit-linear-gradient(top,#8C8C8C 0%,#4D4D4D 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: .5em 0 .1em;
+	text-align: center;
+	position: relative;
+
+}
+
+
+p {
+	text-align: center;
+	font-family: 'Open Sans',arial,sans-serif;
+	background: -webkit-linear-gradient(top,#ddd 0%,#9c9c9c 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 18px; 
+	
+}
+
+#white {
+	margin-top: 57px;
+	padding: .5em 20%;
+	text-align: center;
+	font-family: 'Open Sans',arial,sans-serif;
+	background: -webkit-linear-gradient(top,#8C8C8C 0%,#4D4D4D 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 18px; 
+}
+
+.intro {
+	margin-top: 57px;
+	padding: .5em 20%;
+}
+
+.jump {
+	height: 46px;
+	position: relative;
+	text-align: center;
+	margin: -23px 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+.down_arrow {
+	height: 56px;
+	width: 56px;
+	background: url(file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/down-arrow-icon.png) no-repeat;
+	background-size: 46px 46px;
+	display: inline-block;
+	margin: 0 auto;
+}
