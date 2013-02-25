@@ -65,6 +65,61 @@ p {
 	
 }
 
+.computer {
+	width: 100%;
+	position: relative;
+}
+
+#screens {
+	height: 71.8535%;
+	width: 67.8161%;
+	position: absolute;
+	top: 5.7208%;
+	left: 16.5229%;
+	overflow: hidden;
+}
+ /* Funnel Bar */
+.rightbar {
+	width: 40%;
+	float: right;
+}
+
+.jmoney {
+	list-style-type: none;
+}
+
+#app-zippy .goog-zippy-expanded {
+border-top: 2px solid #369bcd;
+
+}
+
+#app-zippy .app-title {
+background-color: #1a1a1a;
+background-image: -moz-linear-gradient(top,#2c2c2c 0,#171717 40%,#1a1a1a 100%);
+background-image: -webkit-linear-gradient(top,#2c2c2c 0,#171717 40%,#1a1a1a 100%);
+background-image: -o-linear-gradient(top,#2c2c2c 0,#171717 40%,#1a1a1a 100%);
+background-image: -ms-linear-gradient(top,#2c2c2c 0,#171717 40%,#1a1a1a 100%);
+background-image: linear-gradient(top,#2c2c2c 0,#171717 40%,#1a1a1a 100%);
+outline: transparent;
+padding: 1em 1.5em .5em;
+position: relative;
+text-align: left;
+}
+
+h3 {
+	text-align: center;
+	font: 300 2em/1.25em 'Open Sans',arial,sans-serif;
+	background: -webkit-linear-gradient(top,#8C8C8C 0%,#4D4D4D 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 0 .1em;
+	text-align: center;
+	position: relative;
+}
+
+
+ /* End of Funnel Bar */
+
 #white {
 	margin-top: 57px;
 	padding: .5em 20%;

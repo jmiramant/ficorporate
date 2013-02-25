@@ -2,12 +2,12 @@
 <html>
 <meta charset="utf-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<script>
-</script>
+<meta charset=utf-8 />
 <head>
 <title>EverFi Celebrates Financial Literacy Month</title>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/flm.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
 			</div>
 		</section>
 		<div class="jump">
-			<a class="smooth down_arrow" href="#hope"></a>
+			<a href="#hope" class="scroll down_arrow"></a>
 		</div>
 	</div>
 	<div id="sectioncolortwo">
@@ -30,20 +30,63 @@
 			</div>
 		</section>
 		<div class="jump">
-			<a class="smooth down_arrow" href="#mission"></a>
+			<a class="scroll down_arrow" href="#mission"></a>
 		</div>
 	</div>
 		<div id="pgcolor">
 		<section id="mission">
 			<div id="outer">
 				<h2>Join our mission.</h2>
-				<p class="intro">EverFi has partnered with hundreds of banks, companies, and foundations across the US to bring new-media financial literacy education to over 5000 schools. And we can proudly say that  98% of our teachers would recommend this course to other educators. It’s time for the public and private sectors to work together to address this issue head on.</p>	
+				<p class="intro">EverFi has partnered with hundreds of banks, companies, and foundations across the US to bring new-media financial literacy education to over 5000 schools. And we can proudly say that  98% of our teachers would recommend this course to other educators. It’s time for the public and private sectors to work together to address this issue head on.</p>
+			<div class="computer">
+				<img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/screen.png">
+				
+<div class="rightbar">
+				<div>
+              <ul id="jmoney">
+                <li class="app-title goog-zippy-header goog-zippy-expanded" data-screen-id="screen-drive" tabindex="0" role="tab" aria-expanded="true">
+                  <span class="wedge">&nbsp;</span>
+                  <h3>
+                    <span class="app-icon" id="app-icon-drive">&nbsp;</span>Bank Partners
+                  </h3>
+                  <p class="app-content goog-zippy-content" style="">EverFi’s unique model brings private sector leaders and forward-leaning foundations into the education innovation movement.
+                  </p>
+                </li>
+                <li class="app-title goog-zippy-header goog-zippy-collapsed" data-screen-id="screen-hangout" tabindex="0" role="tab" aria-expanded="false">
+                  <span class="wedge">&nbsp;</span>
+                  <h3>
+                    <span class="app-icon" id="app-icon-gplus">&nbsp;</span>Teachers
+                  </h3>
+                  <p class="app-content goog-zippy-content" style="">EverFi’s unique model brings private sector leaders and forward-leaning foundations into the education innovation movement.
+                  </p>
+                </li>
+                <li class="app-title goog-zippy-header goog-zippy-collapsed" data-screen-id="screen-youtube" tabindex="0" role="tab" aria-expanded="false">
+                  <span class="wedge">&nbsp;</span>
+                  <h3>
+                    <span class="app-icon" id="app-icon-youtube">&nbsp;</span>Higher Education
+                  </h3>
+                  <p class="app-content goog-zippy-content" style="display:none">EverFi’s unique model brings private sector leaders and forward-leaning foundations into the education innovation movement.
+                  </p>
+                </li>
+              </ul>
+            </div>
 			</div>
-		</section>
-		<div class="jump">
-			<a class="smooth down_arrow" href="#section4"></a>
 		</div>
+		</div>	
+		</section>
 	</div>
+        </script>
+        	<script type="text/javascript">
+	
+				jQuery(document).ready(function($) {
+			 
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+				});
+			});
+			
+	</script>
 </body>
 
 </html>
