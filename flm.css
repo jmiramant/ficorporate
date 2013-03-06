@@ -1,11 +1,27 @@
 #pgcolor {
 	background-color: #000;
 	margin: -26px -9px 0px -9px;
+	background: -moz-linear-gradient(top, #111111 60%, #444444 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(60%,#111111), color-stop(100%,#444444));
+	background: -webkit-linear-gradient(top, #111111 60%,#444444 100%);
+	background: -o-linear-gradient(top, #111111 60%,#444444 100%);
+	background: -ms-linear-gradient(top, #111111 60%,#444444 100%);
+	background: linear-gradient(to bottom, #111111 60%,#444444 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111111', endColorstr='#444444',GradientType=0 );
 }
 
 #sectioncolortwo {
-	background-color: #fff;
+	background-color: #EAEAE9;
 	margin: -8px -8px 0px -8px;
+	background: #eaeae9;
+	background: -moz-linear-gradient(top,  #eaeae9 70%, #606060 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(70%,#eaeae9), color-stop(100%,#606060));
+	background: -webkit-linear-gradient(top,  #eaeae9 70%,#606060 100%);
+	background: -o-linear-gradient(top,  #eaeae9 70%,#606060 100%);
+	background: -ms-linear-gradient(top,  #eaeae9 70%,#606060 100%);
+	background: linear-gradient(to bottom,  #eaeae9 70%,#606060 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeae9', endColorstr='#606060',GradientType=0 );
+
 }
 
 #socialjump {
@@ -24,12 +40,14 @@
 	padding: 2em 0 0;
 }
 
-#pad, #hope, #mission { 
-	background-image: "file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/gradient.png";
-	background-repeat: repeat-y;
-	background-size: 100% 100%;
+#pad, #hope { 
 	padding: 10px 0px 56px 0px;
 	min-height: 550px;
+}
+
+#mission { 
+	padding: 10px 0px 56px 0px;
+	min-height: 850px;
 }
 
 /* Left Social CSS 
@@ -45,14 +63,14 @@
 	order-left: 26px transparent solid;
 	border-right: 26px transparent solid;
 	max-width: 928px;
-	height: 620px;
+	height: 541px;
 	margin: 0 auto;
 }
 
 h1 {
 	text-align: center;
-	font: 300 64px 'Open Sans',arial,sans-serif;
-	background: -webkit-linear-gradient(top,#ddd 0%,#9c9c9c 100%);
+	font: 400 64px 'Open Sans',arial,sans-serif;
+	background: -webkit-linear-gradient(top,#369BCD 0%,#3883FF 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	margin:  0 .1em;
@@ -64,7 +82,7 @@ h1 {
 h2 {
 
 	text-align: center;
-	font: 300 2.6em/1.25em 'Open Sans',arial,sans-serif;
+	font: 400 2.6em/1.25em 'Open Sans',arial,sans-serif;
 	background: -webkit-linear-gradient(top,#8C8C8C 0%,#4D4D4D 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -74,8 +92,12 @@ h2 {
 
 }
 
+#sectionhead {
+	margin-top: 1em;
 
-p {
+}
+
+p .head {
 	text-align: center;
 	font-family: 'Open Sans',arial,sans-serif;
 	background: -webkit-linear-gradient(top,#ddd 0%,#9c9c9c 100%);
@@ -84,6 +106,30 @@ p {
 	font-size: 18px; 
 	
 }
+
+/**********  PARALAX SCROLLING **************/
+#home section{ 
+  position: relative; 
+}
+ 
+#home article {
+  position: absolute; 
+
+}
+ 
+#hope section{ 
+  position: relative; 
+}
+ 
+#hope article { 
+  position: absolute; 
+}
+
+
+/**********  END PARALAX SCROLLING **************/
+
+
+/**********  FUNNEL PAGE **************/
 
 .computer {
 	width: 100%;
@@ -98,92 +144,136 @@ p {
 	left: 16.5229%;
 	/*overflow: hidden;*/
 }
- /* Funnel Bar */
-.rightbar {
-	width: 40%;
+
+/* Funnel nav */
+#funnelnav {
 	float: right;
 }
 
-.jmoney {
-	list-style-type: none;
-}
-
-#app-zippy .goog-zippy-expanded {
-border-top: 2px solid #369bcd;
-
-}
-
-#app-zippy .app-title {
-background-color: #1a1a1a;
-background-image: -moz-linear-gradient(top,#2c2c2c 0,#171717 40%,#1a1a1a 100%);
-background-image: -webkit-linear-gradient(top,#2c2c2c 0,#171717 40%,#1a1a1a 100%);
-background-image: -o-linear-gradient(top,#2c2c2c 0,#171717 40%,#1a1a1a 100%);
-background-image: -ms-linear-gradient(top,#2c2c2c 0,#171717 40%,#1a1a1a 100%);
-background-image: linear-gradient(top,#2c2c2c 0,#171717 40%,#1a1a1a 100%);
-outline: transparent;
-padding: 1em 1.5em .5em;
-position: relative;
-text-align: left;
-}
-
-h3 {
-	text-align: center;
-	font: 300 2em/1.25em 'Open Sans',arial,sans-serif;
-	background: -webkit-linear-gradient(top,#8C8C8C 0%,#4D4D4D 100%);
+.funnelhead {
+	margin: 2.5em 0 .1em;
+	background: -webkit-linear-gradient(top,#369BCD 0%,#3883FF 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	margin: 0 .1em;
+}
+
+.funnelcopy {
+	margin: 23px 0px 39px 0px;
 	text-align: center;
-	position: relative;
-}
+	font-family: 'Open Sans',arial,sans-serif;
+	color: #adadad;
+	}
 
-.app-icon {
-	background: url(file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/sprite.png) no-repeat;
-	display: block;
-	height: 32px;
-	left: 0;
-	position: absolute;
-	width: 35px;
-	background-size: 33px;
-	top: 3px;
+.funnel-menu{
+    padding: 0;
+    margin: 70px auto;
+    width: 382px;
 }
-
-#app-icon-bank {
-background-position: 0 -67px;
+.funnel-menu li{
+    width: 500px;
+    height: 100px;
+    overflow: hidden;
+    display: block;
+    background: #fff;
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    margin-bottom: 4px;
+    border-left: 10px solid #000;
+    -webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
 }
-
-#app-icon-teachers {
-background-position: 0 0px;
+.funnel-menu li:last-child{
+    margin-bottom: 0px;
 }
-
-#app-icon-he {
-background-position: 0 -32px;
+.funnel-menu li a{
+    text-align: left;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #333;
+    position:relative;
 }
-
-.smooth {
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
+.funnel-icon{
+    font-family: 'WebSymbolsRegular', cursive;
+    font-size: 20px;
+    text-shadow: 0px 0px 1px #333;
+    line-height: 90px;
+    position: absolute;
+    width: 90px;
+    left: 20px;
+    text-align: center;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
 }
-
- /* End of Funnel Bar */
+.funnel-content{
+    position: absolute;
+    left: 120px;
+    width: 370px;
+    height: 60px;
+    top: 20px;
+}
+.funnel-main{
+    font-size: 30px;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+.funnel-sub{
+    font-size: 14px;
+    color: #666;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear; 
+}
+.funnel-menu li:hover{
+    border-color: #fff004;
+    background: #000;
+}
+.funnel-menu li:hover .ca-icon{
+    color: #fff004;
+    text-shadow: 0px 0px 1px #fff004;
+    font-size: 50px;
+}
+.funnel-menu li:hover .ca-main{
+    color: #fff004;
+    font-size: 14px;
+}
+.funnel-menu li:hover .ca-sub{
+    color: #fff;
+    font-size: 30px;
+}
+ 
+/* End of funnel nav */
+ /****** END: FUNNEL PAGE ********/
 
 #white {
 	margin-top: 57px;
-	padding: .5em 20%;
 	text-align: center;
 	font-family: 'Open Sans',arial,sans-serif;
 	background: -webkit-linear-gradient(top,#8C8C8C 0%,#4D4D4D 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 18px; 
+
 }
 
 .intro {
-	margin: 34px 0px 34px 0px;
-}
+	margin: 23px 170px 39px 170px;
+	text-align: center;
+	font-family: 'Open Sans',arial,sans-serif;
+	color: #adadad;
+	}
 
 .jump {
 	height: 58px;
@@ -213,7 +303,7 @@ background-position: 0 -32px;
 }
 
 .centering img {
-	margin-left: 183px;
+	margin-left: 248px;
 }
 
 /******* START OF NAV BUTTONS (http://tympanus.net/codrops/2012/01/30/page-transitions-with-css3/)*******/
@@ -326,6 +416,11 @@ background-position: 0 -32px;
 	color:#fff;
 	text-shadow:1px 1px 0 #C4C4C4;
 }
+
+
+
+/******** TOP NAV OPTION 3 ********/
+
 
 /**
 #navigation {
@@ -463,14 +558,281 @@ img .displayed {
 
 
 	/* COMPANY CONVERSION PAGE */
-.company_length {
-	min-height: 1000px;
+.companydef {
+	height: 1439px;
 }
 
+
 #company_color {
-	background-color: #DF551E;
+	background-color: #EAEAE9;
 	margin: -26px -9px 0px -9px;
+	background: #eaeae9;
+	background: -moz-linear-gradient(top,  #eaeae9 70%, #606060 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(70%,#eaeae9), color-stop(100%,#606060));
+	background: -webkit-linear-gradient(top,  #eaeae9 70%,#606060 100%);
+	background: -o-linear-gradient(top,  #eaeae9 70%,#606060 100%);
+	background: -ms-linear-gradient(top,  #eaeae9 70%,#606060 100%);
+	background: linear-gradient(to bottom,  #eaeae9 70%,#606060 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeae9', endColorstr='#606060',GradientType=0 );
 }
+
+.company_outer {
+	max-width: 928px;
+	margin: 0 auto;
+}
+
+.banner_bar {
+	height: 100px;
+	width: 100%;
+	background-color: #FF9326;
+	border-bottom: 1px solid #cdcccc;
+}
+
+#company_column1 {
+
+}
+
+#company_column2 {
+	border: 10px solid #f6f6f6;
+	border-radius: 11px;
+	float: right;
+	margin: -44px 0px 0px 0px;
+	background-color: #fff;
+	width: 387px;
+	height: 416px;
+}
+
+
+
+/* CONTACT US FORM */
+
+#company_column2 p {
+	font-family: 'Open-Sans', sans-serif;
+	text-align: center;
+	color: #fff;
+	font-size: 27px;
+	background-color: #4D4D4D;
+	border-radius: 5px;
+	height: 47px;
+	margin-top: 1px;
+	padding-top: 14px;
+
+}
+
+.companybutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ff9326;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ff9326;
+	box-shadow:inset 0px 1px 0px 0px #ff9326;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f57f0a), color-stop(1, #ff9326) );
+	background:-moz-linear-gradient( center top, #f57f0a 5%, #ff9326 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f57f0a', endColorstr='#ff9326');
+	background-color:#f57f0a;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #b3b3b3;
+	display:inline-block;
+	color:#fafafa;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	margin: 16px 74px 0px 0px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #6b696b;
+}.companybutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff9326), color-stop(1, #f57f0a) );
+	background:-moz-linear-gradient( center top, #ff9326 5%, #f57f0a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9326', endColorstr='#f57f0a');
+	background-color:#ff9326;
+}.companybutton:active {
+	position:relative;
+	top:1px;
+}
+/* END OF CONTACT US FORM */
+
+
+#company_column2 ul {
+	margin: 10px 64px 0px -12px;
+}
+
+#company_column2 li {
+	font-family: "Open-Sans", sans-serif;
+	list-style: none;
+	text-align: right;
+	line-height: 42px;
+}
+
+#company_vp_column1 {
+	border:2px solid #cdcccc;
+	width: 14%;
+	height: 400px;
+	margin: 209px 0px 0px 290px;
+	background-color: #EFEEEE;
+}
+
+#company_vp_column2 {
+	border:2px solid #cdcccc;
+	width: 14%;
+	height: 400px;
+	margin: -404px 0px 0px 491px;
+	background-color: #EFEEEE;
+
+}
+
+#company_vp_column3 {
+	border:2px solid #cdcccc;
+	width: 14%;
+	height: 400px;
+	margin: -404px 0px 0px 694px;
+	background-color: #EFEEEE;
+
+}
+
+#company_vp_column4 {
+	border:2px solid #cdcccc;
+	width: 14%;
+	height: 399px;
+	margin: -481px 0px 0px 894px;
+	background-color: #EFEEEE;
+
+}
+
+.convert {
+	font-family: "Open-San", sans-serif;
+text-align: center;
+padding: 18px;
+font-size: 18px;
+margin-top: 69px;
+color: #4D4D4D;
+
+}
+
+ /* Round Icons*/
+.ca-menu{
+    padding: 0 0 0 48px;
+    margin: 20px auto;
+    width: 1020px;
+}
+.ca-menu li{
+    width: 230px;
+    height: 230px;
+    border: 10px solid #f6f6f6;
+    overflow: hidden;
+    position: relative;
+    float:left;
+    background: #fff;
+    margin-left:-48px;
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    border-radius: 125px;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+.ca-menu li:last-child{
+    margin-right: 0px;
+}
+.ca-menu li a{
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #333;
+    position: relative;
+}
+.ca-icon{
+    font-family: 'WebSymbolsRegular', cursive;
+    font-size: 40px;
+    color: #f6f6f6;;
+    line-height: 60px;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 30px;
+    text-align: center;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+.ca-main{
+    font-size: 24px;
+    position: absolute;
+    top: 110px;
+    height: 80px;
+    width: 170px;
+    left: 50%;
+    margin-left: -85px;
+    opacity: 0.8;
+    text-align: center;
+    color: #555;
+}
+.ca-sub{
+    display: none;
+}
+.ca-menu li:hover{
+    border-color: #FF9326;
+    z-index: 999;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.ca-menu li:hover .ca-icon{
+    color: #000;
+    font-size: 60px;
+    text-shadow: 0px 0px 1px #000;
+    -webkit-animation: moveFromBottom 300ms ease;
+    -moz-animation: moveFromBottom 300ms ease;
+    -ms-animation: moveFromBottom 300ms ease;
+}
+.ca-menu li:hover .ca-main{
+    color: #000;
+    -webkit-animation: moveFromBottom 500ms ease;
+    -moz-animation: moveFromBottom 500ms ease;
+    -ms-animation: moveFromBottom 500ms ease;
+}
+
+@-webkit-keyframes moveFromBottom {
+    from {
+        -webkit-transform: translateY(200%) scale(0.5);
+        opacity: 0;
+    }
+    to {
+        -webkit-transform: translateY(0%) scale(1);
+        opacity: 1;        
+    }
+}
+@-moz-keyframes moveFromBottom {
+    from {
+        -moz-transform: translateY(200%) scale(0.5);
+        opacity: 0;
+    }
+    to {
+        -moz-transform: translateY(0%) scale(1);
+        opacity: 1;        
+    }
+}
+@-ms-keyframes moveFromBottom {
+    from {
+        -ms-transform: translateY(200%) scale(0.5);
+        opacity: 0;
+    }
+    to {
+        -ms-transform: translateY(0%) scale(1);
+        opacity: 1;        
+    }
+}
+
 
 
 	/* HIGHER EDUCATION CONVERSION PAGE */
@@ -487,7 +849,7 @@ img .displayed {
 
 .divider img {
 	width: 100%;
-	margin: -18px 0px 5px 9px;
+	margin: 0px 0px 5px 9px;
 
 }
 
