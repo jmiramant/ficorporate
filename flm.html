@@ -12,13 +12,14 @@
 <link rel="stylesheet" href="css/fancybox/jquery.fancybox-thumbs.css">
 <link rel="stylesheet" href="css/fancybox/jquery.fancybox.css">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-<script src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/flm.js"></script>
+<script type="text/javascript" src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/flm.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.04022.js"></script>
 </head>
 
 <body>
 <article>
-<!-- Top Story 1-->
-	<div id="pgcolor">
+	<!-- Top Story 1-->
+<div id="pgcolor">
  		<!--TOP NAV BAR - OPTION 3
 <ul class="nav current-about">
 		<li class="home"><a href="#">Home</a></li>
@@ -62,7 +63,7 @@
     </li>
 </ul>
     
-</div>
+	</div>
 
 		<!-- LEFT NAV BAR - Option 1
 <ul id="navigation">
@@ -91,6 +92,48 @@
 				<h2 id="sectionhead">But here comes the hope part.</h2>
 				<p class="head intro" id="white">In the world of Twitter and Facebook, Millennials look to the Internet for everything from dinner recommendations to financial solutions. At EverFi, we use digital learning and gaming to empower students with the essentials to make smart financial decisions. In fact, 73% of students agree that interactive, online courses are an effective way for them to learn.</p>	
 			</div>
+<!-- FILLER SLIDER -->
+				<div class="sp-slideshow">
+			
+				<input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
+				<label for="button-1" class="button-label-1"></label>
+				
+				<input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
+				<label for="button-2" class="button-label-2"></label>
+				
+				<input id="button-3" type="radio" name="radio-set" class="sp-selector-3" />
+				<label for="button-3" class="button-label-3"></label>
+				
+				<input id="button-4" type="radio" name="radio-set" class="sp-selector-4" />
+				<label for="button-4" class="button-label-4"></label>
+				
+				<input id="button-5" type="radio" name="radio-set" class="sp-selector-5" />
+				<label for="button-5" class="button-label-5"></label>
+				
+				<label for="button-1" class="sp-arrow sp-a1"></label>
+				<label for="button-2" class="sp-arrow sp-a2"></label>
+				<label for="button-3" class="sp-arrow sp-a3"></label>
+				<label for="button-4" class="sp-arrow sp-a4"></label>
+				<label for="button-5" class="sp-arrow sp-a5"></label>
+				
+				<div class="sp-content">
+					<div class="sp-parallax-bg"></div>
+					<ul class="sp-slider clearfix">
+						<li><img src="images/image1.png" alt="image01" /></li>
+						<li><img src="images/image2.png" alt="image02" /></li>
+						<li><img src="images/image3.png" alt="image03" /></li>
+						<li><img src="images/image4.png" alt="image04" /></li>
+						<li><img src="images/image5.png" alt="image05" /></li>
+					</ul>
+				</div><!-- sp-content -->
+				
+			</div><!-- sp-slideshow -->
+
+
+
+
+<!-- END FILLER SLIDER -->
+
 		</article>
 		<div class="jump">
 			<a class="scroll down_arrow" href="#mission"></a>
@@ -112,7 +155,7 @@
 </div>
 
 	End of Right Jump: Social-->	
-		<div id="pgcolor">
+		<div id="pgcolorFunnel">
 	<article>
 		<section class="top" id="mission">
 			<div id="outer">
@@ -123,8 +166,8 @@
 				<div id="funnelnav">
 				                <ul class="funnel-menu">
                     <li>
-                        <a href="#">
-                            <span class="funnel-icon">A</span>
+                        <a class="scroll" href="#school">
+                            <span class="funnel-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/funnel/school.png"></span>
                             <div class="funnel-content">
                                 <h2 class="funnel-main">K-12 Educators</h2>
                                 <h3 class="funnel-sub">Enaging the 21st Century Learner</h3>
@@ -132,17 +175,17 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <span class="funnel-icon">I</span>
+                        <a class="scroll" href="#company">
+                            <span class="funnel-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/funnel/company.png"></span>
                             <div class="funnel-content">
-                                <h2 class="funnel-main">Companies &amp; Orgranizations</h2>
+                                <h2 class="funnel-main">Companies</h2>
                                 <h3 class="funnel-sub">Serving Customers Through Education</h3>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <span class="funnel-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/he_icon.png"></span>
+                        <a class="scroll" href="#he">
+                            <span class="funnel-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/funnel/he.png"></span>
                             <div class="funnel-content">
                                 <h2 class="funnel-main">Higher Education</h2>
                                 <h3 class="funnel-sub">Empowering Students with Critical Knowledge</h3>
@@ -155,33 +198,25 @@
 		</section>
 
 		<!-- Schools Conversion Page-->
-	<div id="school_color">
-		<section class="school_length" id="school">
-			<div id="outer">
-				<h2>This is the title section of the Schools portion</h2>
-				<p>ESwine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong tenderloin drumstick boudin kielbasa. Short loin turducken flank ball tip pancetta tri-tip. Pastrami ground round brisket tongue hamburger pancetta.</p>	
-			</div>
-		</section>
-	</div>
-
-		<!-- Divider 1 -->
-	<span class="divider">
-		<img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Blog/Banner/banner1.png">
-	</span>
-		
-		<!-- Company Conversion Page-->
+<div class="companyHeader"></div>
 	<div id="company_color">
 		<div class="companydef">
-		<section class="company_length" id="company">
+		<section class="company_length" id="school">
 			<div class="company_outer">
-				<h2>More than 1000 companies and clients have grown their brand with EverFi</h2>
-				<p>Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong tenderloin drumstick boudin kielbasa. Short loin turducken flank ball tip pancetta tri-tip. Pastrami ground round brisket tongue hamburger pancetta.</p>	
+				<h2>Join more than 5000 schools that are engaging their students with EverFi</h2>
+				<p class="companyCopy">Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong tenderloin drumstick boudin kielbasa. Short loin turducken flank ball tip pancetta tri-tip. Pastrami ground round brisket tongue hamburger pancetta.</p>	
 			</div>
 		</section>
-		<div class="banner_bar"></div>
+		<div class="banner_barSchool"></div>
 		<div class="company_outer">
 		<div style="min-height:400px">
-		<div id="company_column1"></div>
+		<div id="company_column1">
+			
+			<a class="centeringCompany various fancybox.iframe" title="The Imporance of Financial Literacy Month" href="http://www.youtube.com/embed/F_hgd3e0G3U">
+				<img src="file:///Users/jmiramant/Desktop/Screen%20Shot%202013-03-06%20at%2012.17.36%20PM.png">
+			</a>
+		</div>
+
 		<div id="company_column2">
 			<p class="form_header">Sign Up to Take Part</p>
 
@@ -208,10 +243,12 @@
 						  <input type="hidden" name="_mkt_disp" value="return">
 					      <input type="hidden" name="_mkt_trk" value="">
 				  </form>
-
 		</div>	
 	</div>
-			<div><ul class="ca-menu">
+</div>
+<div class="banner_barSchool2"></div>
+			<div id="companyVP">
+				<ul class="ca-menu">
                     <li>
                         <a href="#">
                             <span class="ca-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/Public%20Icon_2.png"></span>
@@ -249,11 +286,10 @@
                         </a>
                     </li>
                  </ul>
-            </div>
-		</div>
+             </div>
+            <div class="companyColumnsBox">
 		         <div id="company_vp_column1">
-                	<p class="convert">Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong</p>
-                </div>
+                	<p class="convert">Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong</p></div>
 				<div id="company_vp_column2">
                 	<p class="convert">Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong</p></div>	
 				<div id="company_vp_column3">
@@ -262,26 +298,214 @@
              <div id="company_vp_column4">
                 	<p class="convert">Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong</p></div>
              </div>
-	</div>
-<div>
-		<!-- Divider 1 -->
-	<span class="divider">
-	</span>
-
-		<!-- Higher Education Conversion Page-->
-	<div id="he_color">
-		<section class="he_length" id="he">
-			<div id="outer">
-				<h2>This is the title section of the Higher Eduction portion</h2>
-				<p>Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong tenderloin drumstick boudin kielbasa. Short loin turducken flank ball tip pancetta tri-tip. Pastrami ground round brisket tongue hamburger pancetta.</p>	
+</div>
+		
+		<!-- Company Conversion Page-->
+		<div class="companyHeader"></div>
+	<div id="company_color">
+		<div class="companydef">
+		<section class="company_length" id="company">
+			<div class="company_outer">
+				<h2>More than 1000 companies and clients have grown their brand with EverFi</h2>
+				<p class="companyCopy">Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong tenderloin drumstick boudin kielbasa. Short loin turducken flank ball tip pancetta tri-tip. Pastrami ground round brisket tongue hamburger pancetta.</p>	
 			</div>
 		</section>
-	</div>
+		<div class="banner_bar"></div>
+		<div class="company_outer">
+		<div style="min-height:400px">
+		<div id="company_column1">
+			
+			<a class="centeringCompany various fancybox.iframe" title="The Imporance of Financial Literacy Month" href="http://www.youtube.com/embed/F_hgd3e0G3U">
+				<img src="file:///Users/jmiramant/Desktop/Screen%20Shot%202013-03-06%20at%2012.17.36%20PM.png">
+			</a>
+		</div>
 
-		<!-- Divider 1 -->
-	<div class="divider">
-		<img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Blog/Banner/banner1.png">
+		<div id="company_column2">
+			<p class="form_header">Sign Up to Take Part</p>
+
+				<form class="lpeRegForm formNotEmpty" method="post" enctype="application/x-www-form-urlencoded" action="http://na-sj02.marketodesigner.com/index.php/leadCapture/save" id="mktForm_6" name="mktForm_6" _lpchecked="1"><ul class="mktLblLeft"><li class="mktFormReq mktField">
+					<label>First Name:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" name="FirstName" id="FirstName" type="text" value="" maxlength="255" tabindex="1"><span class="mktFormMsg"></span></span></li>
+				<li class="mktFormReq mktField"><label>Last Name:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" name="LastName" id="LastName" type="text" value="" maxlength="255" tabindex="2"><span class="mktFormMsg"></span></span></li>
+				<li class="mktFormReq mktField"><label>Company/Organization:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" name="Company" id="Company" type="text" value="" maxlength="255" tabindex="3"><span class="mktFormMsg"></span></span></li>
+				<li class="mktFormReq mktField"><label>Title:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" name="Title" id="Title" type="text" value="" maxlength="255" tabindex="4"><span class="mktFormMsg"></span></span></li>
+				<li class="mktFormReq mktField"><label>Email Address:</label><span class="mktInput"><input class="mktFormText mktFormEmail mktFReq" name="Email" id="Email" type="text" value="" maxlength="255" tabindex="5"><span class="mktFormMsg"></span></span></li>
+				<li class="mktField"><label>Phone Number:</label><span class="mktInput"><input class="mktFormText mktFormPhone" name="Phone" id="Phone" type="text" value="" maxlength="255" tabindex="6"><span class="mktFormMsg"></span></span></li>
+				<li id="mktFrmButtons"><label>&nbsp;</label><input id="mktFrmSubmit" class="companybutton" type="submit" style="width: auto; overflow: visible; padding-left: 1.25em; padding-right: 1.25em;" value="Submit" name="submitButton" onclick="formSubmit(document.getElementById(&quot;mktForm_6&quot;)); return false;">&nbsp;<input style="display: none;" id="mktFrmReset" type="reset" value="Clear" name="resetButton" onclick="formReset(document.getElementById(&quot;mktForm_6&quot;)); return false;"></li>  </ul>
+					  <span style="display:none;"><input type="text" name="_marketo_comments" value=""></span>
+						  <input type="hidden" name="lpId" value="17">
+						  <input type="hidden" name="subId" value="180">
+						  <input type="hidden" name="munchkinId" value="410-YCZ-984">
+						  <input type="hidden" name="kw" value="">
+						  <input type="hidden" name="cr" value="">
+						  <input type="hidden" name="searchstr" value="">
+						  <input type="hidden" name="lpurl" value="http://na-sj02.marketo.com/lp/everfi/FLM_Company-signup.html?cr={creative}&amp;kw={keyword}">
+						  <input type="hidden" name="formid" value="6">
+						  <input type="hidden" name="returnURL" value="http://na-sj02.marketo.com/lp/everfi/FLM_Company-signup.html">
+						  <input type="hidden" name="retURL" value="http://na-sj02.marketo.com/lp/everfi/FLM_Company-signup.html">
+						  <input type="hidden" name="returnLPId" value="17">
+						  <input type="hidden" name="_mkt_disp" value="return">
+					      <input type="hidden" name="_mkt_trk" value="">
+				  </form>
+		</div>	
 	</div>
+</div>
+<div class="banner_bar2"></div>
+			<div id="companyVP">
+				<ul class="ca-menu">
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/Public%20Icon_2.png"></span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Unique Branding</h2>
+                                <h3 class="ca-sub">Personalized to your needs</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/Brand%20Icon_2.png"></span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Public Awareness</h2>
+                                <h3 class="ca-sub">Advanced use of technology</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon" id="heart"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/CRA%20Icon_2.png"></span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Community Reinvestment</h2>
+                                <h3 class="ca-sub">Understanding visually</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/Team%202%20Icon.png"></span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Team of Experts</h2>
+                                <h3 class="ca-sub">Professionals in action</h3>
+                            </div>
+                        </a>
+                    </li>
+                 </ul>
+             </div>
+            <div class="companyColumnsBox">
+		         <div id="company_vp_column1">
+                	<p class="convert">Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong</p></div>
+				<div id="company_vp_column2">
+                	<p class="convert">Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong</p></div>	
+				<div id="company_vp_column3">
+                	<p class="convert">Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong</p></div>
+             </div>
+             <div id="company_vp_column4">
+                	<p class="convert">Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong</p></div>
+             </div>
+</div>
+<div class="companyHeader"></div>
+		<!-- Higher Education Conversion Page-->
+	<div id="company_color">
+		<div class="companydef">
+		<section class="company_length" id="he">
+			<div class="company_outer">
+				<h2>Join more than 500 colleges and universites that have partnered with EverFi</h2>
+				<p class="companyCopy">Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong tenderloin drumstick boudin kielbasa. Short loin turducken flank ball tip pancetta tri-tip. Pastrami ground round brisket tongue hamburger pancetta.</p>	
+			</div>
+		</section>
+		<div class="banner_barHE"></div>
+		<div class="company_outer">
+		<div style="min-height:400px">
+		<div id="company_column1">
+			
+			<a class="centeringCompany various fancybox.iframe" title="The Imporance of Financial Literacy Month" href="http://www.youtube.com/embed/F_hgd3e0G3U">
+				<img src="file:///Users/jmiramant/Desktop/Screen%20Shot%202013-03-06%20at%2012.17.36%20PM.png">
+			</a>
+		</div>
+
+		<div id="company_column2">
+			<p class="form_header">Sign Up to Take Part</p>
+
+				<form class="lpeRegForm formNotEmpty" method="post" enctype="application/x-www-form-urlencoded" action="http://na-sj02.marketodesigner.com/index.php/leadCapture/save" id="mktForm_6" name="mktForm_6" _lpchecked="1"><ul class="mktLblLeft"><li class="mktFormReq mktField">
+					<label>First Name:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" name="FirstName" id="FirstName" type="text" value="" maxlength="255" tabindex="1"><span class="mktFormMsg"></span></span></li>
+				<li class="mktFormReq mktField"><label>Last Name:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" name="LastName" id="LastName" type="text" value="" maxlength="255" tabindex="2"><span class="mktFormMsg"></span></span></li>
+				<li class="mktFormReq mktField"><label>Company/Organization:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" name="Company" id="Company" type="text" value="" maxlength="255" tabindex="3"><span class="mktFormMsg"></span></span></li>
+				<li class="mktFormReq mktField"><label>Title:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" name="Title" id="Title" type="text" value="" maxlength="255" tabindex="4"><span class="mktFormMsg"></span></span></li>
+				<li class="mktFormReq mktField"><label>Email Address:</label><span class="mktInput"><input class="mktFormText mktFormEmail mktFReq" name="Email" id="Email" type="text" value="" maxlength="255" tabindex="5"><span class="mktFormMsg"></span></span></li>
+				<li class="mktField"><label>Phone Number:</label><span class="mktInput"><input class="mktFormText mktFormPhone" name="Phone" id="Phone" type="text" value="" maxlength="255" tabindex="6"><span class="mktFormMsg"></span></span></li>
+				<li id="mktFrmButtons"><label>&nbsp;</label><input id="mktFrmSubmit" class="companybutton" type="submit" style="width: auto; overflow: visible; padding-left: 1.25em; padding-right: 1.25em;" value="Submit" name="submitButton" onclick="formSubmit(document.getElementById(&quot;mktForm_6&quot;)); return false;">&nbsp;<input style="display: none;" id="mktFrmReset" type="reset" value="Clear" name="resetButton" onclick="formReset(document.getElementById(&quot;mktForm_6&quot;)); return false;"></li>  </ul>
+					  <span style="display:none;"><input type="text" name="_marketo_comments" value=""></span>
+						  <input type="hidden" name="lpId" value="17">
+						  <input type="hidden" name="subId" value="180">
+						  <input type="hidden" name="munchkinId" value="410-YCZ-984">
+						  <input type="hidden" name="kw" value="">
+						  <input type="hidden" name="cr" value="">
+						  <input type="hidden" name="searchstr" value="">
+						  <input type="hidden" name="lpurl" value="http://na-sj02.marketo.com/lp/everfi/FLM_Company-signup.html?cr={creative}&amp;kw={keyword}">
+						  <input type="hidden" name="formid" value="6">
+						  <input type="hidden" name="returnURL" value="http://na-sj02.marketo.com/lp/everfi/FLM_Company-signup.html">
+						  <input type="hidden" name="retURL" value="http://na-sj02.marketo.com/lp/everfi/FLM_Company-signup.html">
+						  <input type="hidden" name="returnLPId" value="17">
+						  <input type="hidden" name="_mkt_disp" value="return">
+					      <input type="hidden" name="_mkt_trk" value="">
+				  </form>
+		</div>	
+	</div>
+</div>
+<div class="banner_barHE2"></div>
+			<div id="companyVP">
+				<ul class="ca-menu">
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/Public%20Icon_2.png"></span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Unique Branding</h2>
+                                <h3 class="ca-sub">Personalized to your needs</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/Brand%20Icon_2.png"></span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Public Awareness</h2>
+                                <h3 class="ca-sub">Advanced use of technology</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon" id="heart"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/CRA%20Icon_2.png"></span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Community Reinvestment</h2>
+                                <h3 class="ca-sub">Understanding visually</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/Team%202%20Icon.png"></span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Team of Experts</h2>
+                                <h3 class="ca-sub">Professionals in action</h3>
+                            </div>
+                        </a>
+                    </li>
+                 </ul>
+             </div>
+            <div class="companyColumnsBox">
+		         <div id="company_vp_column1">
+                	<p class="convert">Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong</p></div>
+				<div id="company_vp_column2">
+                	<p class="convert">Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong</p></div>	
+				<div id="company_vp_column3">
+                	<p class="convert">Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong</p></div>
+             </div>
+             <div id="company_vp_column4">
+                	<p class="convert">Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong</p></div>
+             </div>
+</div>
+
+
 
 		        	<script type="text/javascript">
 
@@ -325,6 +549,7 @@
 					closeEffect	: 'none'
 				});
 			});
+</script>
 
 </article>
 

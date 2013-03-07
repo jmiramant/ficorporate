@@ -50,26 +50,18 @@
 	min-height: 850px;
 }
 
-/* Left Social CSS 
-.socialleft {
-	position: relative;
-	left: 1368px;
-	width: 1400px;
-
-}
-
- End: Left Social CSS */
 #outer {
 	order-left: 26px transparent solid;
 	border-right: 26px transparent solid;
 	max-width: 928px;
-	height: 541px;
+	height: 147px;
 	margin: 0 auto;
 }
 
 h1 {
 	text-align: center;
 	font: 400 64px 'Open Sans',arial,sans-serif;
+	/* -orange	background: -webkit-linear-gradient(top,#FF9326 0%,#d9541e 100%); */
 	background: -webkit-linear-gradient(top,#369BCD 0%,#3883FF 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -81,14 +73,11 @@ h1 {
 
 h2 {
 
-	text-align: center;
 	font: 400 2.6em/1.25em 'Open Sans',arial,sans-serif;
-	background: -webkit-linear-gradient(top,#8C8C8C 0%,#4D4D4D 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	margin: .5em 0 .1em;
 	text-align: center;
 	position: relative;
+	color: #4D4D4D;
 
 }
 
@@ -105,6 +94,10 @@ p .head {
 	-webkit-text-fill-color: transparent;
 	font-size: 18px; 
 	
+}
+
+.funnel-icon img {
+	padding-top: 15px;
 }
 
 /**********  PARALAX SCROLLING **************/
@@ -129,7 +122,303 @@ p .head {
 /**********  END PARALAX SCROLLING **************/
 
 
+/**********  FILLER SCROLL **************/
+.sp-slideshow {
+    position: relative;
+	margin: 10px auto;
+	width: 80%;
+	max-width: 1000px;
+	min-width: 260px;
+	height: 460px;
+	border: 10px solid #fff;
+	border: 10px solid rgba(255,255,255,0.9);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.sp-content {
+    background: #7d7f72 url(file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/grid.png) repeat scroll 0 0;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.sp-parallax-bg {
+    background: url(file://localhost/Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/images/map.png) repeat-x scroll 0 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.sp-slideshow input {
+    position: absolute;
+	bottom: 15px;
+	left: 50%;
+	width: 9px;
+	height: 9px;
+	z-index: 1001;
+	cursor: pointer;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.sp-slideshow input + label {
+    position: absolute;
+    bottom: 15px;
+	left: 50%;
+    width: 6px;
+	height: 6px;
+	display: block;
+	z-index: 1000;
+	border: 3px solid #fff;
+	border: 3px solid rgba(255,255,255,0.9);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: background-color linear 0.1s;
+    -moz-transition: background-color linear 0.1s;
+    -o-transition: background-color linear 0.1s;
+    -ms-transition: background-color linear 0.1s;
+    transition: background-color linear 0.1s;
+}
+.sp-slideshow input:checked + label {
+	background-color: #fff;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.sp-selector-1, .button-label-1 {
+    margin-left: -36px;
+}
+
+.sp-selector-2, .button-label-2 {
+    margin-left: -18px;
+}
+
+.sp-selector-4, .button-label-4 {
+    margin-left: 18px;
+}
+
+.sp-selector-5, .button-label-5 {
+    margin-left: 36px;
+}
+
+.sp-arrow {
+    position: absolute;
+	top: 50%;
+	width: 28px;
+	height: 38px;
+	margin-top: -19px;
+	display: none;
+	opacity: 0.8;
+	cursor: pointer;
+	z-index: 1000;
+	background: transparent url(file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/arrows.png) no-repeat;
+	-webkit-transition: opacity linear 0.3s;
+    -moz-transition: opacity linear 0.3s;
+    -o-transition: opacity linear 0.3s;
+    -ms-transition: opacity linear 0.3s;
+    transition: opacity linear 0.3s;
+}
+.sp-arrow:hover{
+	opacity: 1;
+}
+.sp-arrow:active{
+	margin-top: -18px;
+}
+.sp-selector-1:checked ~ .sp-arrow.sp-a2,
+.sp-selector-2:checked ~ .sp-arrow.sp-a3,
+.sp-selector-3:checked ~ .sp-arrow.sp-a4,
+.sp-selector-4:checked ~ .sp-arrow.sp-a5 {
+    right: 15px;
+	display: block;
+	background-position: top right;
+}
+.sp-selector-2:checked ~ .sp-arrow.sp-a1,
+.sp-selector-3:checked ~ .sp-arrow.sp-a2,
+.sp-selector-4:checked ~ .sp-arrow.sp-a3,
+.sp-selector-5:checked ~ .sp-arrow.sp-a4 {
+    left: 15px;
+	display: block;
+	background-position: top left;
+}
+
+.sp-slideshow input:checked ~ .sp-content {
+    -webkit-transition: background-position linear 0.6s, background-color linear 0.8s;
+    -moz-transition: background-position linear 0.6s, background-color linear 0.8s;
+    -o-transition: background-position linear 0.6s, background-color linear 0.8s;
+    -ms-transition: background-position linear 0.6s, background-color linear 0.8s;
+    transition: background-position linear 0.6s, background-color linear 0.8s;
+}
+
+.sp-slideshow input:checked ~ .sp-content .sp-parallax-bg {
+    -webkit-transition: background-position linear 0.7s;
+    -moz-transition: background-position linear 0.7s;
+    -o-transition: background-position linear 0.7s;
+    -ms-transition: background-position linear 0.7s;
+    transition: background-position linear 0.7s;
+}
+
+input.sp-selector-1:checked ~ .sp-content {
+    background-position: 0 0;
+	background-color: #727b7f;
+}
+
+input.sp-selector-2:checked ~ .sp-content {
+    background-position: -100px 0;
+	background-color: #7f7276;
+}
+
+input.sp-selector-3:checked ~ .sp-content {
+    background-position: -200px 0;
+	background-color: #737f72;
+}
+
+input.sp-selector-4:checked ~ .sp-content {
+    background-position: -300px 0;
+	background-color: #79727f;
+}
+
+input.sp-selector-5:checked ~ .sp-content {
+    background-position: -400px 0;
+	background-color: #7d7f72;
+}
+
+input.sp-selector-1:checked ~ .sp-content .sp-parallax-bg {
+    background-position: 0 0;
+}
+
+input.sp-selector-2:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -200px 0;
+}
+
+input.sp-selector-3:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -400px 0;
+}
+
+input.sp-selector-4:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -600px 0;
+}
+
+input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -800px 0;
+}
+
+.sp-slider {
+    position: relative;
+	left: 0;
+    width: 500%;
+	height: 100%;
+	list-style: none;
+    margin: 0;
+	padding: 0;
+    -webkit-transition: left ease-in 0.8s;
+    -moz-transition: left ease-in 0.8s;
+    -o-transition: left ease-in 0.8s;
+    -ms-transition: left ease-in 0.8s;
+    transition: left ease-in 0.8s; 
+}
+
+.sp-slider > li {
+	color: #fff;
+	width: 20%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 100%;
+	padding: 0 60px;
+    float: left;
+	text-align: center;
+	opacity: 0.4;
+    -webkit-transition: opacity ease-in 0.4s 0.8s;
+    -moz-transition: opacity ease-in 0.4s 0.8s;
+    -o-transition: opacity ease-in 0.4s 0.8s;
+    -ms-transition: opacity ease-in 0.4s 0.8s;
+    transition: opacity ease-in 0.4s 0.8s; 
+}
+.sp-slider > li img{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	margin: 0 auto;
+	padding: 40px 0 50px 0;
+	max-height: 100%;
+	max-width: 100%;
+}
+input.sp-selector-1:checked ~ .sp-content .sp-slider {
+    left: 0;
+}
+
+input.sp-selector-2:checked ~ .sp-content .sp-slider {
+    left: -100%;
+}
+
+input.sp-selector-3:checked ~ .sp-content .sp-slider {
+    left: -200%;
+}
+
+input.sp-selector-4:checked ~ .sp-content .sp-slider {
+    left: -300%;
+}
+
+input.sp-selector-5:checked ~ .sp-content .sp-slider {
+    left: -400%;
+}
+
+input.sp-selector-1:checked ~ .sp-content .sp-slider > li:first-child,
+input.sp-selector-2:checked ~ .sp-content .sp-slider > li:nth-child(2),
+input.sp-selector-3:checked ~ .sp-content .sp-slider > li:nth-child(3),
+input.sp-selector-4:checked ~ .sp-content .sp-slider > li:nth-child(4),
+input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
+	opacity: 1;
+}
+@media screen and (max-width: 840px){
+	.sp-slideshow { height: 345px; }
+}
+@media screen and (max-width: 680px){
+	.sp-slideshow { height: 285px; }
+}
+@media screen and (max-width: 560px){
+	.sp-slideshow { height: 235px; }
+}
+@media screen and (max-width: 320px){
+	.sp-slideshow { height: 158px; }
+}
+
+
+
+
+/**********  END FILLER SCROLL **************/
+
+
+
+
+
+
 /**********  FUNNEL PAGE **************/
+#pgcolorFunnel {
+	background-color: #000;
+	margin: -26px -9px 0px -9px;
+	background: -moz-linear-gradient(top, #111111 60%, #444444 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(60%,#111111), color-stop(100%,#444444));
+	background: -webkit-linear-gradient(top, #111111 60%,#444444 100%);
+	background: -o-linear-gradient(top, #111111 60%,#444444 100%);
+	background: -ms-linear-gradient(top, #111111 60%,#444444 100%);
+	background: linear-gradient(to bottom, #111111 60%,#444444 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111111', endColorstr='#444444',GradientType=0 );
+}
+
 
 .computer {
 	width: 100%;
@@ -151,7 +440,7 @@ p .head {
 }
 
 .funnelhead {
-	margin: 2.5em 0 .1em;
+	margin: .85em 0 .1em;
 	background: -webkit-linear-gradient(top,#369BCD 0%,#3883FF 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -194,7 +483,7 @@ p .head {
     display: block;
     width: 100%;
     height: 100%;
-    color: #333;
+    color: #EAEAE9;
     position:relative;
 }
 .funnel-icon{
@@ -217,7 +506,7 @@ p .head {
     left: 120px;
     width: 370px;
     height: 60px;
-    top: 20px;
+    top: 7px;
 }
 .funnel-main{
     font-size: 30px;
@@ -235,6 +524,7 @@ p .head {
     -o-transition: all 300ms linear;
     -ms-transition: all 300ms linear;
     transition: all 300ms linear; 
+    text-align: center;
 }
 .funnel-menu li:hover{
     border-color: #fff004;
@@ -253,6 +543,8 @@ p .head {
     color: #fff;
     font-size: 30px;
 }
+
+	background: url(file:///Users/jmiramant/Desktop/test.png) 
  
 /* End of funnel nav */
  /****** END: FUNNEL PAGE ********/
@@ -261,15 +553,12 @@ p .head {
 	margin-top: 57px;
 	text-align: center;
 	font-family: 'Open Sans',arial,sans-serif;
-	background: -webkit-linear-gradient(top,#8C8C8C 0%,#4D4D4D 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	font-size: 18px; 
+	font-size: 18px;
+	color: #4D4D4D;
 
 }
 
 .intro {
-	margin: 23px 170px 39px 170px;
 	text-align: center;
 	font-family: 'Open Sans',arial,sans-serif;
 	color: #adadad;
@@ -303,7 +592,7 @@ p .head {
 }
 
 .centering img {
-	margin-left: 248px;
+	margin: 28px 248px;
 }
 
 /******* START OF NAV BUTTONS (http://tympanus.net/codrops/2012/01/30/page-transitions-with-css3/)*******/
@@ -558,10 +847,22 @@ img .displayed {
 
 
 	/* COMPANY CONVERSION PAGE */
+.companyHeader {
+	height: 300px;
+	background: #525354;
+	/* background: -moz-linear-gradient(top,  #eaeae9 10%, #000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,#eaeae9), color-stop(100%,#000));
+	background: -webkit-linear-gradient(top,  #eaeae9 10%,#000 100%);
+	background: -o-linear-gradient(top,  #eaeae9 10%,#000 100%);
+	background: -ms-linear-gradient(top,  #eaeae9 10%,#000 100%);
+	background: linear-gradient(to bottom,  #eaeae9 10%,#000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeae9', endColorstr='#000',GradientType=0 );*/
+
+}
+
 .companydef {
 	height: 1439px;
 }
-
 
 #company_color {
 	background-color: #EAEAE9;
@@ -581,16 +882,38 @@ img .displayed {
 	margin: 0 auto;
 }
 
+.companyCopy {
+	margin: 23px 0px 39px 0px;
+	text-align: center;
+	font-family: 'Open Sans',arial,sans-serif;
+	color: #525252;
+}
+
+
 .banner_bar {
-	height: 100px;
+	height: 58px;
 	width: 100%;
 	background-color: #FF9326;
 	border-bottom: 1px solid #cdcccc;
 }
 
-#company_column1 {
-
+.banner_bar2 {
+	height: 58px;
+	width: 100%;
+	background-color: #FF9326;
+	border-bottom: 1px solid #cdcccc;
+	margin-top: -50px; 
 }
+
+#company_column1 {
+	float: left;
+	max-width: 56%;
+}
+
+.centeringCompany img {
+	margin: 41px 63px 54px -16px;
+}
+
 
 #company_column2 {
 	border: 10px solid #f6f6f6;
@@ -602,7 +925,9 @@ img .displayed {
 	height: 416px;
 }
 
+#companyVP {
 
+}
 
 /* CONTACT US FORM */
 
@@ -693,7 +1018,7 @@ img .displayed {
 	border:2px solid #cdcccc;
 	width: 14%;
 	height: 399px;
-	margin: -481px 0px 0px 894px;
+	margin: -403px 0px 0px 894px;
 	background-color: #EFEEEE;
 
 }
@@ -708,11 +1033,12 @@ color: #4D4D4D;
 
 }
 
- /* Round Icons*/
+ /* Round Icons */
 .ca-menu{
-    padding: 0 0 0 48px;
-    margin: 20px auto;
-    width: 1020px;
+	display: block;
+	padding: 0 0 0 48px;
+	margin: 20px auto;
+	width: 881px;
 }
 .ca-menu li{
     width: 230px;
@@ -845,16 +1171,41 @@ color: #4D4D4D;
 	margin: -26px -9px 0px -9px;
 }
 
-
-
-.divider img {
-	width: 100%;
-	margin: 0px 0px 5px 9px;
-
+.heCopy {
+	margin: 23px 0px 39px 0px;
+	text-align: center;
+	font-family: 'Open Sans',arial,sans-serif;
+	color: #525252;
 }
 
 
+.banner_barSchool {
+	height: 58px;
+	width: 100%;
+	background-color: #DCC04D;
+	border-bottom: 1px solid #cdcccc;
+}
+.banner_barSchool2 {
+	height: 58px;
+	width: 100%;
+	background-color: #DCC04D;
+	border-bottom: 1px solid #cdcccc;
+	margin-top: -50px; 
+}
 
+.banner_barHE {
+	height: 58px;
+	width: 100%;
+	background-color: #319B8B;
+	border-bottom: 1px solid #cdcccc;
+}
+.banner_barHE2 {
+	height: 58px;
+	width: 100%;
+	background-color: #319B8B;
+	border-bottom: 1px solid #cdcccc;
+	margin-top: -50px; 
+}
 
 
 
