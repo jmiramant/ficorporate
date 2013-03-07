@@ -564,6 +564,13 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 	color: #adadad;
 	}
 
+.intro2 {
+	text-align: center;
+	font-family: 'Open Sans',arial,sans-serif;
+	color: #525252;
+	}
+
+
 .jump {
 	height: 58px;
 	position: relative;
@@ -1235,5 +1242,20 @@ color: #4D4D4D;
 	margin-top: -50px; 
 }
 
+/********** CONTACT FORM **********/
 
+#contact_form {
+	border: 10px solid #f6f6f6;
+	border-radius: 11px;
+	float: right;
+	margin: -44px 0px 0px 0px;
+	background-color: #fff;
+	width: 387px;
+	height: 416px;
+}
 
+#outerContact {
+	border-right: 26px transparent solid;
+	max-width: 928px;
+	height: 147px;
+}
