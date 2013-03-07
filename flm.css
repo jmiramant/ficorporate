@@ -517,8 +517,10 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
     transition: all 300ms linear;
 }
 .funnel-sub{
-    font-size: 14px;
-    color: #666;
+	font-family: 'Open-Sans', sans-serif;
+	margin-top: 6px;
+	font-size: 14px;
+	color: #666;
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
@@ -922,6 +924,11 @@ img .displayed {
 }
 
 
+.companyColumnsBox {
+	margin: 0 auto;
+	width: 886px;
+}
+
 #company_column2 {
 	border: 10px solid #f6f6f6;
 	border-radius: 11px;
@@ -933,7 +940,8 @@ img .displayed {
 }
 
 #companyVP {
-
+	position: relative;
+	width: 100%;
 }
 
 /* CONTACT US FORM */
@@ -1016,35 +1024,35 @@ img .displayed {
 
 #company_vp_column1 {
 	border:2px solid #cdcccc;
-	width: 14%;
+	width: 199px;
 	height: 400px;
-	margin: 209px 0px 0px 290px;
+	margin: 211px 0px 0px 4px;
 	background-color: #EFEEEE;
 }
 
 #company_vp_column2 {
 	border:2px solid #cdcccc;
-	width: 14%;
+	width: 199px;
 	height: 400px;
-	margin: -404px 0px 0px 491px;
+	margin: -404px 0px 0px 205px;
 	background-color: #EFEEEE;
 
 }
 
 #company_vp_column3 {
 	border:2px solid #cdcccc;
-	width: 14%;
+	width: 200px;
 	height: 400px;
-	margin: -404px 0px 0px 694px;
+	margin: -404px 0px 0px 406px;
 	background-color: #EFEEEE;
 
 }
 
 #company_vp_column4 {
 	border:2px solid #cdcccc;
-	width: 14%;
+	width: 200px;
 	height: 399px;
-	margin: -403px 0px 0px 894px;
+	margin: -403px 0px 0px 608px;
 	background-color: #EFEEEE;
 
 }
