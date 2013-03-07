@@ -219,7 +219,7 @@ p .head {
 	opacity: 0.8;
 	cursor: pointer;
 	z-index: 1000;
-	background: transparent url(file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/arrows.png) no-repeat;
+	background: transparent url(../images/arrows.png) no-repeat;
 	-webkit-transition: opacity linear 0.3s;
     -moz-transition: opacity linear 0.3s;
     -o-transition: opacity linear 0.3s;
@@ -965,11 +965,30 @@ img .displayed {
 	padding:6px 24px;
 	text-decoration:none;
 	text-shadow:1px 1px 0px #6b696b;
+}
+
+.companybutton .school {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f57f0a), color-stop(1, #ff9326) );
+	background:-moz-linear-gradient( center top, #f57f0a 5%, #ff9326 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f57f0a', endColorstr='#ff9326');
+	background-color:#f57f0a;
+}
+
+.companybutton .he {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f57f0a), color-stop(1, #ff9326) );
+	background:-moz-linear-gradient( center top, #f57f0a 5%, #ff9326 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f57f0a', endColorstr='#ff9326');
+	background-color:#f57f0a;
+}
+
+
+
 }.companybutton:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff9326), color-stop(1, #f57f0a) );
 	background:-moz-linear-gradient( center top, #ff9326 5%, #f57f0a 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9326', endColorstr='#f57f0a');
 	background-color:#ff9326;
+}
 }.companybutton:active {
 	position:relative;
 	top:1px;
@@ -1113,6 +1132,15 @@ color: #4D4D4D;
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+.he li:hover{
+    border-color: #319B8B;
+}
+
+.school li:hover{
+    border-color: #DCC04D;
+}
+
 .ca-menu li:hover .ca-icon{
     color: #000;
     font-size: 60px;
