@@ -1,27 +1,52 @@
+.headerbar {
+	background-color: #383838;
+	width: 1440px;
+	height: 120px;
+	margin: -8px;
+}
+
 #pgcolor {
-	background-color: #000;
+	background-color: #75C4D1;
+	background-image: url(file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/images/map.png);
 	margin: -26px -9px 0px -9px;
-	background: -moz-linear-gradient(top, #111111 60%, #444444 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(60%,#111111), color-stop(100%,#444444));
-	background: -webkit-linear-gradient(top, #111111 60%,#444444 100%);
-	background: -o-linear-gradient(top, #111111 60%,#444444 100%);
-	background: -ms-linear-gradient(top, #111111 60%,#444444 100%);
-	background: linear-gradient(to bottom, #111111 60%,#444444 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111111', endColorstr='#444444',GradientType=0 );
+}
+
+.topnav{
+	width: 11%;
+	height: 45%;
+	background-color: #fff;
+	margin: 60px 0px 0px 30px;
+	position: fixed;
+	border: 3px solid #cdcccc;
+	overflow: hidden;
+}
+
+.topnavlist a:link {
+	text-decoration:none;
+}
+
+.topnavlist a:hover {
+	color: #000;
+}
+
+h3 {
+	font: 400 24px 'Josefin Slab',arial,sans-serif;
+	text-align: center;
+}
+
+.topnavlist ul {
+	list-style: none;
+}
+
+.topnavlist a {
+	color: #383838;
+	font: 400 16px 'Josefin Slab',arial,sans-serif;
+	line-height: 32px;
 }
 
 #sectioncolortwo {
-	background-color: #EAEAE9;
+	background-color: #F2F2F2;
 	margin: -8px -8px 0px -8px;
-	background: #eaeae9;
-	background: -moz-linear-gradient(top,  #eaeae9 70%, #606060 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(70%,#eaeae9), color-stop(100%,#606060));
-	background: -webkit-linear-gradient(top,  #eaeae9 70%,#606060 100%);
-	background: -o-linear-gradient(top,  #eaeae9 70%,#606060 100%);
-	background: -ms-linear-gradient(top,  #eaeae9 70%,#606060 100%);
-	background: linear-gradient(to bottom,  #eaeae9 70%,#606060 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeae9', endColorstr='#606060',GradientType=0 );
-
 }
 
 #socialjump {
@@ -42,7 +67,7 @@
 
 #pad, #hope { 
 	padding: 10px 0px 56px 0px;
-	min-height: 550px;
+	min-height: 575px;
 }
 
 #mission { 
@@ -51,7 +76,7 @@
 }
 
 #outer {
-	order-left: 26px transparent solid;
+	border-left: 26px transparent solid;
 	border-right: 26px transparent solid;
 	max-width: 928px;
 	height: 147px;
@@ -59,21 +84,17 @@
 }
 
 h1 {
-	text-align: center;
-	font: 400 64px 'Open Sans',arial,sans-serif;
-	/* -orange	background: -webkit-linear-gradient(top,#FF9326 0%,#d9541e 100%); */
-	background: -webkit-linear-gradient(top,#369BCD 0%,#3883FF 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	margin:  0 .1em;
-	text-align: center;
-	position: relative;
+font: 400 64px 'Josefin Slab',arial,sans-serif;
+color: #fff;
+margin: 0 .1em;
+text-align: center;
+position: relative;
 
 }
 
 h2 {
 
-	font: 400 2.6em/1.25em 'Open Sans',arial,sans-serif;
+	font: 400 2.6em/1.25em 'Josefin Slab',arial,sans-serif;
 	margin: .5em 0 .1em;
 	text-align: center;
 	position: relative;
@@ -88,7 +109,7 @@ h2 {
 
 p .head {
 	text-align: center;
-	font-family: 'Open Sans',arial,sans-serif;
+	font-family: 'Josefin Slab',arial,sans-serif;
 	background: -webkit-linear-gradient(top,#ddd 0%,#9c9c9c 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -125,7 +146,7 @@ p .head {
 /**********  FILLER SCROLL **************/
 .sp-slideshow {
     position: relative;
-	margin: 10px auto;
+	margin: 65px auto;
 	width: 80%;
 	max-width: 1000px;
 	min-width: 260px;
@@ -408,15 +429,9 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 
 /**********  FUNNEL PAGE **************/
 #pgcolorFunnel {
-	background-color: #000;
+	background-color: #75C4D1;
+	background-image: url(file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/images/map.png);
 	margin: -26px -9px 0px -9px;
-	background: -moz-linear-gradient(top, #111111 60%, #444444 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(60%,#111111), color-stop(100%,#444444));
-	background: -webkit-linear-gradient(top, #111111 60%,#444444 100%);
-	background: -o-linear-gradient(top, #111111 60%,#444444 100%);
-	background: -ms-linear-gradient(top, #111111 60%,#444444 100%);
-	background: linear-gradient(to bottom, #111111 60%,#444444 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111111', endColorstr='#444444',GradientType=0 );
 }
 
 
@@ -441,16 +456,18 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 
 .funnelhead {
 	margin: .85em 0 .1em;
-	background: -webkit-linear-gradient(top,#369BCD 0%,#3883FF 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: #fff;
+	font-weight: 400;
+	font-size: 2.6em;
 }
 
 .funnelcopy {
 	margin: 23px 0px 39px 0px;
 	text-align: center;
-	font-family: 'Open Sans',arial,sans-serif;
-	color: #adadad;
+	font-family: 'Josefin Slab',arial,sans-serif;
+	color: #383838;
+	font-size: 24px;
+	line-height: 29px;
 	}
 
 .funnel-menu{
@@ -517,7 +534,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
     transition: all 300ms linear;
 }
 .funnel-sub{
-	font-family: 'Open-Sans', sans-serif;
+	font-family: 'Josefin Slab', sans-serif;
 	margin-top: 6px;
 	font-size: 14px;
 	color: #666;
@@ -554,7 +571,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 #white {
 	margin-top: 57px;
 	text-align: center;
-	font-family: 'Open Sans',arial,sans-serif;
+	font-family: 'Josefin Slab',arial,sans-serif;
 	font-size: 18px;
 	color: #4D4D4D;
 
@@ -562,14 +579,18 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 
 .intro {
 	text-align: center;
-	font-family: 'Open Sans',arial,sans-serif;
-	color: #adadad;
+	font-family: 'Josefin Slab',arial,sans-serif;
+	color: #383838;
+	font-size: 24px;
+	line-height: 29px;
 	}
 
 .intro2 {
 	text-align: center;
-	font-family: 'Open Sans',arial,sans-serif;
-	color: #525252;
+	font-family: 'Josefin Slab',arial,sans-serif;
+	color: #383838;
+	font-size: 24px;
+	line-height: 29px;
 	}
 
 
@@ -630,7 +651,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 	overflow:hidden;
 
 	/* Text properties */
-	font-family:'Open-Sans',Arial, Helvetica, sans-serif;
+	font-family:'Josefin Slab',Arial, Helvetica, sans-serif;
 	font-size:16px;
 	font-weight:400;
 	letter-spacing:1px;
@@ -894,7 +915,9 @@ img .displayed {
 .companyCopy {
 	margin: 23px 0px 39px 0px;
 	text-align: center;
-	font-family: 'Open Sans',arial,sans-serif;
+	font-family: 'Josefin Slab',arial,sans-serif;
+	font-size: 22px;
+	line-height: 24px;
 	color: #525252;
 }
 
@@ -947,7 +970,7 @@ img .displayed {
 /* CONTACT US FORM */
 
 #company_column2 p {
-	font-family: 'Open-Sans', sans-serif;
+	font-family: 'Josefin Slab', sans-serif;
 	text-align: center;
 	color: #fff;
 	font-size: 27px;
@@ -1016,7 +1039,7 @@ img .displayed {
 }
 
 #company_column2 li {
-	font-family: "Open-Sans", sans-serif;
+	font-family: 'Josefin Slab', sans-serif;
 	list-style: none;
 	text-align: right;
 	line-height: 42px;
@@ -1058,7 +1081,7 @@ img .displayed {
 }
 
 .convert {
-	font-family: "Open-San", sans-serif;
+	font-family: 'Josefin Slab', sans-serif;
 text-align: center;
 padding: 18px;
 font-size: 18px;
@@ -1217,7 +1240,7 @@ color: #4D4D4D;
 .heCopy {
 	margin: 23px 0px 39px 0px;
 	text-align: center;
-	font-family: 'Open Sans',arial,sans-serif;
+	font-family: 'Josefin Slab',arial,sans-serif;
 	color: #525252;
 }
 
