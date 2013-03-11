@@ -7,15 +7,15 @@
 
 #pgcolor {
 	background-color: #75C4D1;
-	background-image: url(file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/images/map.png);
+	background-image: url('images/map.png');
 	margin: -26px -9px 0px -9px;
 }
 
-.topnav{
+#content1{
 	width: 11%;
-	height: 45%;
+	height: 246px;
 	background-color: #fff;
-	margin: 60px 0px 0px 30px;
+	margin: 42px 0px 0px 22px;
 	position: fixed;
 	border: 3px solid #cdcccc;
 	overflow: hidden;
@@ -26,22 +26,25 @@
 }
 
 .topnavlist a:hover {
-	color: #000;
+	color: #A8A8A8;
 }
 
 h3 {
 	font: 400 24px 'Josefin Slab',arial,sans-serif;
 	text-align: center;
+	margin: 11px 0px -7px 0px;
 }
 
-.topnavlist ul {
-	list-style: none;
+.topnavlist li {
+	list-style-image:url('assets/Arrows/SmallBulletYellow.png');
+	padding: 4px 0px 7px 0px;
 }
 
 .topnavlist a {
 	color: #383838;
 	font: 400 16px 'Josefin Slab',arial,sans-serif;
-	line-height: 32px;
+	line-height: 16px;
+	font-weight: 700;
 }
 
 #sectioncolortwo {
@@ -84,11 +87,13 @@ h3 {
 }
 
 h1 {
-font: 400 64px 'Josefin Slab',arial,sans-serif;
-color: #fff;
-margin: 0 .1em;
-text-align: center;
-position: relative;
+	display: block;
+	font: 400 64px 'Josefin Slab',arial,sans-serif;
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	margin-bottom: -11px;
 
 }
 
@@ -146,7 +151,7 @@ p .head {
 /**********  FILLER SCROLL **************/
 .sp-slideshow {
     position: relative;
-	margin: 65px auto;
+	margin: 1px auto;
 	width: 80%;
 	max-width: 1000px;
 	min-width: 260px;
@@ -157,7 +162,7 @@ p .head {
 }
 
 .sp-content {
-    background: #7d7f72 url(file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/grid.png) repeat scroll 0 0;
+    background: #7d7f72 url('grid.png') repeat scroll 0 0;
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -165,7 +170,7 @@ p .head {
 }
 
 .sp-parallax-bg {
-    background: url(file://localhost/Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/images/map.png) repeat-x scroll 0 0;
+    background: url('images/map.png') repeat-x scroll 0 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -240,7 +245,7 @@ p .head {
 	opacity: 0.8;
 	cursor: pointer;
 	z-index: 1000;
-	background: transparent url(../images/arrows.png) no-repeat;
+	background: transparent url('images/arrows.png') no-repeat;
 	-webkit-transition: opacity linear 0.3s;
     -moz-transition: opacity linear 0.3s;
     -o-transition: opacity linear 0.3s;
@@ -430,7 +435,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 /**********  FUNNEL PAGE **************/
 #pgcolorFunnel {
 	background-color: #75C4D1;
-	background-image: url(file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/images/map.png);
+	background-image: url('images/map.png');
 	margin: -26px -9px 0px -9px;
 }
 
@@ -452,22 +457,23 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 /* Funnel nav */
 #funnelnav {
 	float: right;
+	position: relative;
 }
 
 .funnelhead {
 	margin: .85em 0 .1em;
 	color: #fff;
 	font-weight: 400;
-	font-size: 2.6em;
+	font-size: 41px;
 }
 
 .funnelcopy {
-	margin: 23px 0px 39px 0px;
+	margin: 23px 0px -12px 0px;
 	text-align: center;
 	font-family: 'Josefin Slab',arial,sans-serif;
 	color: #383838;
-	font-size: 24px;
-	line-height: 29px;
+	font-size: 20px;
+	line-height: 26px;
 	}
 
 .funnel-menu{
@@ -476,7 +482,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
     width: 382px;
 }
 .funnel-menu li{
-    width: 500px;
+    width: 365px;
     height: 100px;
     overflow: hidden;
     display: block;
@@ -485,6 +491,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
     -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     margin-bottom: 4px;
+    border-radius: 8px;
     border-left: 10px solid #000;
     -webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
@@ -520,10 +527,9 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 }
 .funnel-content{
     position: absolute;
-    left: 120px;
     width: 370px;
     height: 60px;
-    top: 7px;
+    top: 2px;
 }
 .funnel-main{
     font-size: 30px;
@@ -561,18 +567,15 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 .funnel-menu li:hover .ca-sub{
     color: #fff;
     font-size: 30px;
-}
-
-	background: url(file:///Users/jmiramant/Desktop/test.png) 
- 
+} 
 /* End of funnel nav */
  /****** END: FUNNEL PAGE ********/
 
 #white {
-	margin-top: 57px;
 	text-align: center;
+	margin-top: 10px;
 	font-family: 'Josefin Slab',arial,sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	color: #4D4D4D;
 
 }
@@ -580,9 +583,9 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 .intro {
 	text-align: center;
 	font-family: 'Josefin Slab',arial,sans-serif;
-	color: #383838;
-	font-size: 24px;
-	line-height: 29px;
+	color: #4D4D4D;
+	font-size: 20px;
+	line-height: 22px;
 	}
 
 .intro2 {
@@ -595,148 +598,36 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 
 
 .jump {
-	height: 58px;
+	height: 66px;
 	position: relative;
 	text-align: center;
-	margin: -35px 0;
+	margin: -35px auto;
 	width: 100%;
 	z-index: 1000;
 }
 
 .down_arrow {
-	height: 56px;
-	width: 56px;
-	background: url(file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/down-arrow-icon.png) no-repeat;
-	background-size: 46px 46px;
+	height: 60px;
+	width: 60px;
+	background: url('assets/Arrows/downYellow.png') no-repeat;
+	background-size: 60px 60px;
 	display: inline-block;
 	margin: 0 auto;
 }
 
 .down_arrow_top {
-	height: 56px;
-	width: 56px;
-	background: url(file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/down-arrow-icon.png) no-repeat;
-	background-size: 46px 46px;
+	height: 60px;
+	width: 60px;
+	background: url('assets/Arrows/downYellow.png') no-repeat;
+	background-size: 60px 60px;
 	display: inline-block;
 	margin: 22px;
 }
 
 .centering img {
-	margin: 28px 248px;
+	display: block;
+	margin: -5px auto;
 }
-
-/******* START OF NAV BUTTONS (http://tympanus.net/codrops/2012/01/30/page-transitions-with-css3/)*******/
-
-#main{
-	margin:13px 0px 0px -29px;
-	position:fixed;
-	width:40px;
-}
-
-
-
-#navigationMenu li{
-	list-style:none;
-	height:39px;
-	padding:2px;
-	width:40px;
-}
-
-#navigationMenu span{
-	/* Container properties */
-	width:0;
-	left:38px;
-	padding:0;
-	position:absolute;
-	overflow:hidden;
-
-	/* Text properties */
-	font-family:'Josefin Slab',Arial, Helvetica, sans-serif;
-	font-size:16px;
-	font-weight:400;
-	letter-spacing:1px;
-	white-space:nowrap;
-	line-height:39px;
-	
-	/* CSS3 Transition: */
-	-webkit-transition: 0.25s;
-	
-	/* Future proofing (these do not work yet): */
-	-moz-transition: 0.25s;
-	transition: 0.25s;
-}
-
-#navigationMenu a{
-	background:url('file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/Nav%20Icons/nav_sprite.jpg') no-repeat;
-	height:40px;
-	width:40px;
-	display:block;
-	position:relative;
-}
-
-/* General hover styles */
-
-#navigationMenu a:hover span{ width:auto; padding:0 20px;overflow:visible; }
-#navigationMenu a:hover{
-	text-decoration:none;
-	
-	/* CSS outer glow with the box-shadow property */
-	-moz-box-shadow:0 0 5px #9ddff5;
-	-webkit-box-shadow:0 0 5px #9ddff5;
-	box-shadow:0 0 5px #9ddff5;
-}
-
-/* Green Button */
-
-#navigationMenu .home {	background-position:-46px 0;}
-#navigationMenu .home:hover {	background-position:0 -39px;}
-#navigationMenu .home span{
-	background-color:#E45F02;
-	color:#fff;
-	text-shadow:1px 1px 0 #C4C4C4;
-}
-
-/* Blue Button */
-
-#navigationMenu .about { background-position:0px 0;}
-#navigationMenu .about:hover { background-position:-38px -39px;}
-#navigationMenu .about span{
-	background-color:#F5E436;
-	color:#fff;
-	text-shadow:1px 1px 0 #C4C4C4;
-}
-
-/* Orange Button */
-
-#navigationMenu .services { background-position:-176px 0;}
-#navigationMenu .services:hover { background-position:-76px -39px;}
-#navigationMenu .services span{
-	background-color:#41EC84;
-	color:#fff;
-	text-shadow:1px 1px 0 #C4C4C4;
-}
-
-/* Yellow Button */
-
-#navigationMenu .portfolio { background-position:-132px 0;}
-#navigationMenu .portfolio:hover{ background-position:-114px -39px;}
-#navigationMenu .portfolio span{
-	background-color:#EA3100;
-	color:#fff;
-	text-shadow:1px 1px 0 #C4C4C4 ;
-}
-
-/* Purple Button */
-
-#navigationMenu .contact { background-position:-90px 0;}
-#navigationMenu .contact:hover { background-position:-152px -39px;}
-#navigationMenu .contact span{
-	background-color:#3883FF;
-	color:#fff;
-	text-shadow:1px 1px 0 #C4C4C4;
-}
-
-
 
 /******** TOP NAV OPTION 3 ********/
 

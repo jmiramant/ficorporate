@@ -6,13 +6,16 @@
 <head>
 <title>EverFi Celebrates Financial Literacy Month</title>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/flm.css">
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="flm.css">
 <!-- FANCYBOX CSS -->
 <link rel="stylesheet" href="css/fancybox/jquery.fancybox-buttons.css">
 <link rel="stylesheet" href="css/fancybox/jquery.fancybox-thumbs.css">
 <link rel="stylesheet" href="css/fancybox/jquery.fancybox.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script> 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-<script type="text/javascript" src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/flm.js"></script>
+<script type="text/javascript" src="js/transify.js"></script> 
+<script type="text/javascript" src="js/flm.js"></script>
 <script type="text/javascript" src="js/modernizr.custom.04022.js"></script>
 </head>
 
@@ -27,18 +30,23 @@
 
 <article>
 	<!-- Top Story 1--> 
-<div id="pgcolor">
+ <div id="pgcolor">
 	<!--TOP NAV BAR - OPTION 4 -->
-	<div class="topnav">
+	<div class="topnav" id="content1">
 		<h3>Learn How to Get Involved</h3> 
 	<ul class="topnavlist">
-			<li><a href="#school">K-12 Educators</a></li>
-			<li><a href="#company">Companies</a></li>
-			<li><a href="#he">Higher Education</a></li>
+			<li><a href="#school" class="scroll">K-12 Educators</a></li>
+			<li><a href="#company" class="scroll">Companies</a></li>
+			<li><a href="#he" class="scroll">Higher Education</a></li>
 	<hr>
 			<li><a href="#contact">Contact Us</a></li>
 	</ul>
 </div>
+
+<script type="text/javascript">
+$('#content1').transify();
+</script>
+
  		<!--TOP NAV BAR - OPTION 3
 <ul class="nav current-about">
 		<li class="home"><a href="#">Home</a></li>
@@ -95,8 +103,9 @@
 <!-- END: LEFT NAV BAR -->
 		<section class="top" id="pad">
 			<div id="outer">
-				<h2>EverFi Celebrates</h2><h1>Financial Literacy Month</h1>
-				<p class="head intro">Every April, headlines across the US paint a bleak picture of America’s financial literacy. But here at EverFi, we have a whole lot of hope.</p>
+				<h2>EverFi Recognizes</h2><h1>Financial Literacy Month</h1>
+				<p class="head intro">As Financial Literacy Month arrives each April, headlines paint a bleak picture of the state of financial literacy in the United States.  And many of the indicators are not good. <br /><br />Despite the best efforts of educators, the financial preparedness resources available to students are inadequate.  Currently, fewer than 20 US states mandate that high school students complete a course in financial literacy before high school graduation. Add to that the fact that only 26% of parents feel well prepared to teach their kids about basic personal finance.  
+</p>
 				<a class="centering various fancybox.iframe" title="The Imporance of Financial Literacy Month" href="http://www.youtube.com/embed/F_hgd3e0G3U"><img src="file:///Users/jmiramant/Desktop/Screen%20Shot%202013-03-06%20at%2012.17.36%20PM.png"></a>
 			</div>
 		</section>
@@ -109,8 +118,8 @@
 	<div id="sectioncolortwo">
 		<article class="top" id="hope">
 			<div id="outer">
-				<h2 id="sectionhead">But here comes the hope part.</h2>
-				<p class="head intro2" id="white">In the world of Twitter and Facebook, Millennials look to the Internet for everything from dinner recommendations to financial solutions. At EverFi, we use digital learning and gaming to empower students with the essentials to make smart financial decisions. In fact, 73% of students agree that interactive, online courses are an effective way for them to learn.</p>	
+				<h2 id="sectionhead">But We’ve Got a Lot of Hope</h2>
+				<p class="head intro2" id="white">In the world of Twitter and Facebook, Millennials look online for just about everything. At EverFi, we use digital learning and gaming to empower students with the essentials to make smart financial decisions.</p>	
 			</div>
 <!-- FILLER SLIDER -->
 				<div class="sp-slideshow">
@@ -179,36 +188,34 @@
 	<article>
 		<section class="top" id="mission">
 			<div id="outer">
-				<h2 class="funnelhead">Join our mission.</h2>
-				<p class="head funnelcopy">EverFi has partnered with hundreds of banks, companies, and foundations across the US to bring new-media financial literacy education to over 5000 schools. And we can proudly say that  98% of our teachers would recommend this course to other educators. It’s time for the public and private sectors to work together to address this issue head on.</p>
+				<h2 class="funnelhead">Join our Financial Literacy Mission.</h2>
+				<p class="head funnelcopy">It’s time for the public and private sectors to work together to address this issue head on.  EverFi has partnered with hundreds of banks, companies, and foundations across the United States to bring new-media financial literacy education to over 5,000 schools.  We’ve certified 5.5 million students in critical skills that empower their future.  And we can proudly say that 98% of our teachers recommend this course to other educators.<br /><br />This April, we all have an opportunity to make the headlines POSITIVE.
+</p>
 			<div class="computer">
 				<img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/screen.png">
 				<div id="funnelnav">
 				                <ul class="funnel-menu">
                     <li>
                         <a class="scroll" href="#school">
-                            <span class="funnel-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/funnel/school.png"></span>
                             <div class="funnel-content">
-                                <h2 class="funnel-main">K-12 Educators</h2>
-                                <h3 class="funnel-sub">Enaging the 21st Century Learner</h3>
+                                <h2 class="funnel-main">K-12 Resources</h2>
+                                <h3 class="funnel-sub">Learn about EverFi’s adaptive learning platforms and our national network of schools</h3>
                             </div>
                         </a>
                     </li>
                     <li>
                         <a class="scroll" href="#company">
-                            <span class="funnel-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/funnel/company.png"></span>
                             <div class="funnel-content">
-                                <h2 class="funnel-main">Companies</h2>
+                                <h2 class="funnel-main">Sponsor Resources</h2>
                                 <h3 class="funnel-sub">Serving Customers Through Education</h3>
                             </div>
                         </a>
                     </li>
                     <li>
                         <a class="scroll" href="#he">
-                            <span class="funnel-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/funnel/he.png"></span>
                             <div class="funnel-content">
-                                <h2 class="funnel-main">Higher Education</h2>
-                                <h3 class="funnel-sub">Empowering Students with Critical Knowledge</h3>
+                                <h2 class="funnel-main">Higher Education Resources</h2>
+                                <h3 class="funnel-sub">Find out more about how we’re helping college students build critical financial skills</h3>
                             </div>
                         </a>
                     </li>
@@ -223,8 +230,9 @@
 		<div class="companydef">
 		<section class="company_length" id="school">
 			<div class="company_outer">
-				<h2>Join more than 5000 schools that are engaging their students with EverFi</h2>
-				<p class="companyCopy">Swine tenderloin pork belly beef ribs, frankfurter leberkas shoulder ribeye. Pork belly ball tip shankle pork chuck swine jerky pork chop bresaola biltong tenderloin drumstick boudin kielbasa. Short loin turducken flank ball tip pancetta tri-tip. Pastrami ground round brisket tongue hamburger pancetta.</p>	
+				<h2>Empower the Financial Future of Your Students</h2>
+				<p class="companyCopy">The EverFi Financial Literacy Platform begins in elementary school and includes a dedicated high school module.  This interactive, new media program was specifically designed to introduce financial literacy skills early in a child's cognitive development and empower students to cultivate good financial habits that will stay with them throughout their lives.</p>
+				<p class="companyCopy">Most importantly, we partner with socially responsible organizations that are committed to supporting financial education, allowing us to offer this entire learning platform free to schools and students.</p>	
 			</div>
 		</section>
 		<div class="banner_barSchool"></div>
@@ -273,7 +281,7 @@
                         <a href="#">
                             <span class="ca-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/Public%20Icon_2.png"></span>
                             <div class="ca-content">
-                                <h2 class="ca-main">Unique Branding</h2>
+                                <h2 class="ca-main">Empower Students</h2>
                                 <h3 class="ca-sub">Personalized to your needs</h3>
                             </div>
                         </a>
@@ -282,8 +290,7 @@
                         <a href="#">
                             <span class="ca-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/Brand%20Icon_2.png"></span>
                             <div class="ca-content">
-                                <h2 class="ca-main">Public Awareness</h2>
-                                <h3 class="ca-sub">Advanced use of technology</h3>
+                                <h2 class="ca-main">Engaging Platform </h2>
                             </div>
                         </a>
                     </li>
@@ -291,7 +298,7 @@
                         <a href="#">
                             <span class="ca-icon" id="heart"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/CRA%20Icon_2.png"></span>
                             <div class="ca-content">
-                                <h2 class="ca-main">Community Reinvestment</h2>
+                                <h2 class="ca-main">Expand Teacher Reach</h2>
                                 <h3 class="ca-sub">Understanding visually</h3>
                             </div>
                         </a>
@@ -300,7 +307,16 @@
                         <a href="#">
                             <span class="ca-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/Team%202%20Icon.png"></span>
                             <div class="ca-content">
-                                <h2 class="ca-main">Team of Experts</h2>
+                                <h2 class="ca-main">No Cost to Schools</h2>
+                                <h3 class="ca-sub">Professionals in action</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon"><img src="file:///Users/jmiramant/Dropbox/Marketing/Josh/Corporate%20Site/FLM/assets/Team%202%20Icon.png"></span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Assessment Data</h2>
                                 <h3 class="ca-sub">Professionals in action</h3>
                             </div>
                         </a>
@@ -525,38 +541,8 @@
 <!-- CONTACT US FORM -->
 <div class="companyHeader"></div>
 <div id="pgcolor">
-		<section class="top" id="pad">
-			<div id="outerContact">
-				<div id="company_column2">
-			<p class="form_header">Sign Up to Take Part</p>
-
-				<form class="lpeRegForm formNotEmpty" method="post" enctype="application/x-www-form-urlencoded" action="http://na-sj02.marketodesigner.com/index.php/leadCapture/save" id="mktForm_6" name="mktForm_6" _lpchecked="1"><ul class="mktLblLeft"><li class="mktFormReq mktField">
-					<label>First Name:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" name="FirstName" id="FirstName" type="text" value="" maxlength="255" tabindex="1"><span class="mktFormMsg"></span></span></li>
-				<li class="mktFormReq mktField"><label>Last Name:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" name="LastName" id="LastName" type="text" value="" maxlength="255" tabindex="2"><span class="mktFormMsg"></span></span></li>
-				<li class="mktFormReq mktField"><label>Company/Organization:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" name="Company" id="Company" type="text" value="" maxlength="255" tabindex="3"><span class="mktFormMsg"></span></span></li>
-				<li class="mktFormReq mktField"><label>Title:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" name="Title" id="Title" type="text" value="" maxlength="255" tabindex="4"><span class="mktFormMsg"></span></span></li>
-				<li class="mktFormReq mktField"><label>Email Address:</label><span class="mktInput"><input class="mktFormText mktFormEmail mktFReq" name="Email" id="Email" type="text" value="" maxlength="255" tabindex="5"><span class="mktFormMsg"></span></span></li>
-				<li class="mktField"><label>Phone Number:</label><span class="mktInput"><input class="mktFormText mktFormPhone" name="Phone" id="Phone" type="text" value="" maxlength="255" tabindex="6"><span class="mktFormMsg"></span></span></li>
-				<li id="mktFrmButtons"><label>&nbsp;</label><input id="mktFrmSubmit" class="companybutton" type="submit" style="width: auto; overflow: visible; padding-left: 1.25em; padding-right: 1.25em;" value="Submit" name="submitButton" onclick="formSubmit(document.getElementById(&quot;mktForm_6&quot;)); return false;">&nbsp;<input style="display: none;" id="mktFrmReset" type="reset" value="Clear" name="resetButton" onclick="formReset(document.getElementById(&quot;mktForm_6&quot;)); return false;"></li>  </ul>
-					  <span style="display:none;"><input type="text" name="_marketo_comments" value=""></span>
-						  <input type="hidden" name="lpId" value="17">
-						  <input type="hidden" name="subId" value="180">
-						  <input type="hidden" name="munchkinId" value="410-YCZ-984">
-						  <input type="hidden" name="kw" value="">
-						  <input type="hidden" name="cr" value="">
-						  <input type="hidden" name="searchstr" value="">
-						  <input type="hidden" name="lpurl" value="http://na-sj02.marketo.com/lp/everfi/FLM_Company-signup.html?cr={creative}&amp;kw={keyword}">
-						  <input type="hidden" name="formid" value="6">
-						  <input type="hidden" name="returnURL" value="http://na-sj02.marketo.com/lp/everfi/FLM_Company-signup.html">
-						  <input type="hidden" name="retURL" value="http://na-sj02.marketo.com/lp/everfi/FLM_Company-signup.html">
-						  <input type="hidden" name="returnLPId" value="17">
-						  <input type="hidden" name="_mkt_disp" value="return">
-					      <input type="hidden" name="_mkt_trk" value="">
-				  </form>
-		</div>	
-			</div>
-		</section>
 	</div>
+
 
 <!-- SCROLL SO SMOOTH LIKE -->
 
