@@ -15,31 +15,31 @@ function tag(el) {
 }
 
 var pages = [$('.page1'), $('.page2'), $('.page3')],
-    pageContainer = $('.pages-container'),
+pageContainer = $('.pages-container'),
     //pageWidth = (100/pages.length) + '%',
-    anchors = tag('a'), n = 0, isSmooth = false,
+    anchors = tag('a'), n = 0, isSmooth = false;
 
-(function() {
-    pageContainer.style.width = pages.length + '00%';
-    for (var i = 0, page; page = pages[i]; i++) {
-        page.style.width = pageWidth;
-        page.style.float = "left";
+    (function() {
+        pageContainer.style.width = pages.length + '00%';
+        for (var i = 0, page; page = pages[i]; i++) {
+            page.style.width = pageWidth;
+            page.style.float = "left";
+        }
+    }());
+
+    function controlAnchorMovement(x) {
+        pageContainer.style.marginLeft = "-" + x + "00%";
+        document.title = titles[x];
+        n = x;
     }
-}());
-
-function controlAnchorMovement(x) {
-    pageContainer.style.marginLeft = "-" + x + "00%";
-    document.title = titles[x];
-    n = x;
-}
 
 
-function setNavigation(e) {
+    function setNavigation(e) {
      var anchor = this,
-        href = anchor.href;
+     href = anchor.href;
 
-        if (href.indexOf('#') !== -1) {
-            href = href.split("#")[1];
+     if (href.indexOf('#') !== -1) {
+        href = href.split("#")[1];
 
             /*if(href === "home" || href === "work" || href === "contact") { e.preventDefault(); checkIfSmooth(); }
 
@@ -48,20 +48,20 @@ function setNavigation(e) {
             if (href === "contact") { controlAnchorMovement(2); } */
 
         }
-}
+    }
 
-function checkIfSmooth() {
-if (!isSmooth) {
-        pageContainer.className += " smooth";
-        isSmooth = true;
-}
-}
+    function checkIfSmooth() {
+        if (!isSmooth) {
+            pageContainer.className += " smooth";
+            isSmooth = true;
+        }
+    }
 
-function checkAndMove(n) {
-pageContainer.style.marginLeft = '-'+n+'00%';
+    function checkAndMove(n) {
+        pageContainer.style.marginLeft = '-'+n+'00%';
         checkIfSmooth();
         document.title = titles[n];
-}
+    }
 
 /* This is to control nav by key stroke
 for (var i = 0, anchor; anchor = anchors[i]; i++) {
@@ -82,5 +82,3 @@ window.addEventListener("keydown", function(evt) {
         checkAndMove(n);
     }
 }, false) */
-
-});

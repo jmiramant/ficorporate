@@ -1,45 +1,56 @@
 .headerbar {
 	background-color: #383838;
-	width: 1440px;
+	width: 100%;
 	height: 120px;
 	margin: -8px;
 }
 
+
 .sidebar {
-	float: right;
-	height: 100%;
+	float: left;
 }
 
 .homenav {
-	width: 213px;
+	width: 9%;
 	height: 60px;
-	background-color: #FFC948;
-	margin: 16px 0px 0px -214px;
+	background-color: #75C4D1;
+	margin: 16px 0px 0px 0px;
 	position: fixed;
 	overflow: hidden;
 	text-align: center;
-	font: 700 16px 'Josefin Slab',arial,sans-serif;
-	color: #000;
+	font: 700 25px 'Josefin Slab',arial,sans-serif;
+	padding-top: 19px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #F2F2F2;
 }
 
 #pgcolor {
 	background-color: #75C4D1;
 	background-image: url('images/map.png');
-	width:85%;
 	margin: 8px 0px 0px -8px;
 }
 
 #content1{
 	height: 193px;
-	width: 213px;
+	width: 9%;
 	background-color: #383838;
-	margin: 86px 0px 0px -214px;
+	margin: 76px 0px 0px 0px;
 	overflow: hidden;
 	position: fixed;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #F2F2F2;
 }
 
-.topnavlist a:link {
+.topnavlist a {
 	text-decoration:none;
+	color: #fff;
+	font-family: 'Josefin Slab',arial,sans-serif;
+}
+
+ul.topnavlist {	
+	margin: 7px 0px 0px -14px;
 }
 
 .topnavlist a:hover {
@@ -58,23 +69,31 @@ h3 {
 	padding: 4px 0px 7px 0px;
 }
 
-.topnavlist a {
-	color: #fff;
-	font: 400 16px 'Josefin Slab',arial,sans-serif;
-	line-height: 16px;
-	font-weight: 400;00;
+.homenav a {
+ 	color: #fff;
+}
+
+.homenav a:hover {
+ 	color: #8A8A8A;
+}
+
+.homenav a:link {
+	text-decoration:none;
 }
 
 .signup {
-	width: 213px;
+	width: 9%;
 	height: 60px;
 	background-color: #FFC948;
-	margin: 290px 0px 0px -214px;
+	margin: 269px 0px 0px 0px;
 	position: fixed;
 	overflow: hidden;
 	text-align: center;
 	font: 700 16px 'Josefin Slab',arial,sans-serif;
 	color: #000;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #F2F2F2;
 
 }
 
@@ -104,7 +123,6 @@ h3 {
 
 #sectioncolortwo {
 	background-color: #F2F2F2;
-	width: 85%;
 	margin: -8px -8px 0px -8px;
 }
 
@@ -118,18 +136,18 @@ h3 {
 
 #pad, #hope { 
 	padding: 10px 0px 56px 0px;
-	min-height: 575px;
+	min-height: 565px;
 }
 
 #mission { 
-	padding: 10px 0px 56px 0px;
-	min-height: 725px;
+	padding: 10px 0px 0px 0px;
+	min-height: 699px;
 }
 
 #outer {
 	border-left: 26px transparent solid;
 	border-right: 26px transparent solid;
-	max-width: 928px;
+	max-width: 1000px;
 	height: 147px;
 	margin: 0 auto;
 }
@@ -148,7 +166,7 @@ h1 {
 h2 {
 
 	font: 400 2.6em/1.25em 'Josefin Slab',arial,sans-serif;
-	margin: .5em 0 .1em;
+	margin: 0em 0 .1em;
 	text-align: center;
 	position: relative;
 	color: #4D4D4D;
@@ -173,14 +191,17 @@ p .head {
 .infographic img {
 	display: block;
 	margin: 0px auto;
+	border: white;
+	border-style: solid;
+	border-width: 11px;
+	border-radius: 4px;
 }	
 
 /**********  FUNNEL PAGE **************/
 
 #funnel_bg {
-	width: 85%;
 	background-color: #75C4D1;
-	background-image: url('images/map_narrow.png');
+	background-image: image-url('images/map_narrow.png');
 	background-repeat:no-repeat;
 	background-size:100% 250px;
 	margin: -26px -9px 0px -9px;
@@ -196,30 +217,35 @@ p .head {
 
 .funnelWrap {
 	width: 800px;
-	margin:80px auto;
+	margin:58px auto;
 }
 
 
 .funnelbox {
-	background : #383838;
+	background: #383838;
 	width: 33%;
-	height: 180px;
+	height: 182px;
 	float: left;
 	margin: 0px auto 0px auto;
 	font-family: 'Josefin Slab',arial,sans-serif;
 	font-size: 50px;
 	text-align: center;
-	padding-top: 80px;
+	padding-top: 48px;
 	color: #FFC948;
+}
+.funnelbox:hover  {
+	color: #383838;
+	background-color: #FFC948;
 }
 
 .funnelchild {
 	display: none;
 	background: #FFC948;
 	width: 33%;
-	height: 200px;
+	height: 216px;
 	float: left;
-	margin: 260px 0px 0px -264px;
+	margin: 230px 0px 0px -264px;
+	padding-top: 14px;
 	font-family: 'Josefin Slab',arial,sans-serif;
 	color: #383838;
 	text-align: center;
@@ -238,29 +264,14 @@ p .head {
 	text-decoration: none;
 }
 
-.funnelbox a:hover {
-	color: #383838;
-	background-color: #FFC948;
+ #bgimg1 {
+	height: 461px;
+	width: 1440px;
+	margin: -1px 0px 0px -78px;
+	background-image: url(assets/background/student_background.png);
+	background-repeat: no-repeat;
 }
 
-#bgimg1 {
-	width: 585px;
-	height: 460px;
-	margin: 0px 0px 0px -81px;
-	background-image: url(assets/background/left_student.png);
-}
-
-#bgimg2 {
-	width:33%;
-	height: 400px;
-	background-image: url(assets/background/middle_student.png);
-}
-
-#bgimg3 {
-	width:33%;
-	height: 400px;
-	background-image: url(assets/background/right_student.png);
-}
 
 
 .funnelhead {
@@ -286,7 +297,7 @@ p .head {
 	font-family: 'Josefin Slab',arial,sans-serif;
 	color: #4D4D4D;
 	font-size: 20px;
-	line-height: 22px;
+	line-height: 25px;
 	}
 
 .intro2 {
@@ -325,9 +336,10 @@ p .head {
 	margin: 22px;
 }
 
-.centering img {
+#centering img {
 	display: block;
-	margin: -5px auto;
+	width: 42%;
+	margin: -10px auto;
 }
 
 
@@ -340,13 +352,28 @@ p .head {
 
 	/* SCHOOL CONVERSION PAGE */
 .school_length {
-	width: 85%;
 	margin: 0px -10px;
 }
 .school_section1 {
 	background-color: #FFC948;
 	background-image: url('images/map_narrow.png');
-	height: 750px;
+	height: 730px;
+}
+
+
+.school_section1 h2 {
+	font: 400 46px 'Josefin Slab',arial,sans-serif;
+	margin: -87px 0px 0px 0px;
+	text-align: center;
+	position: relative;
+	color: #4D4D4D;
+}
+
+#schoolimg {
+	display: block;
+	margin: auto;
+	padding: 0px 993px 0px 0px;
+	height: 105px;
 }
 
 #school_color {
@@ -356,58 +383,256 @@ p .head {
 
 .schoolcopy {
 	text-align: center;
+	width: 60%;
+	margin: 8px auto;
 	font-family: 'Josefin Slab',arial,sans-serif;
 	color: #383838;
-	font-size: 24px;
-	line-height: 29px;
-	padding: 0px 75px 0px 75px;
+	font-size: 20px;
+	line-height: 26px;
 }
 
 #schoolwrap{
 	display: block;
+	width: 68%;
 	margin: 0px auto;
-	padding-left: 133px;
+	padding-left: 8%
+}
+
+#schoolVids {
+	float: left;
+	margin: 41px -3% 0 13%;
+}
+
+.signupcopy {
+	text-align: center;
+	width: 34%;
+	margin-left: 15%;
+	font-family: 'Josefin Slab',arial,sans-serif;
+	font-size: 23px;
+	color: #4D4D4D;
 }
 
 .schoolicon {
 	background-color: #6FBEC8;
-	width: 170px;
-	height: 230px;
+	width: 15.5%;
+	height: 215px;
 	float: left;
 	margin: 0px 10px 0px 10px;
 	font-family: 'Josefin Slab',arial,sans-serif;
 	font-size: 30px;
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 35px;
 	color: #FFF;
 }
+
+.schoolicon:hover {
+	cursor: pointer;
+	background-color: #F9444A;
+}
+
+#schoolwrap .schoolicon.first-child {
+	background-color: #F9444A;	
+}
+
+#schoolwrap .first-child {
+	display: block;	
+}
+
+
 
 #si1 img {
 	width:100px;
 }
 
 #si2 img {
-	width: 87px; 
+	width: 51%; 
 	padding-bottom: 7px;
 }
 
 #si3 img {
-	width:76px;
+	width:44.5%;
 	padding-bottom: 5px;
 }
 
 #si4 img {
-	width: 92px;
+	width: 52.5%;
 	padding-bottom: 3px;
 }
 
 #si5 img {
-	width:132px;
+	width:77.5%;
 	padding: 22px 0px 14px 0px;
 }
 
 .schoolchild {
 	display: none;
+	position: absolute;
+	width: 43%;
+	font-family: 'Josefin Slab',arial,sans-serif;
+	text-align: center;
+	margin: 263px 0px 0px 8%;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+.schoolchild {
+	font-size: 33px
+}
+} 
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+.schoolchild {
+	font-size: 22px
+}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+.schoolchild {
+	font-size: 16px
+}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.schoolchild {
+	font-size: 20px
+}
+}
+
+.schoolchildwrap{
+	display: block;
+	position: relative;
+	width: 46%;
+	margin: 297px auto;
+	height: 100px;
+	background-color: #FFFFFF;
+}
+
+#banner {
+	width: 64%;
+	margin: 282px auto;
+	padding-right: 9px;
+}
+
+#ltflg {
+	width: 100%;
+}
+
+
+.school_section2 {
+	background: #E6E6E6;
+	height: 678px;
+	margin-top: -16px;
+}
+
+.school_section3 {
+	background: #fff;
+	height: 605px;
+}
+
+#quotebox {
+	display: block;
+	margin: 50px auto;
+}
+
+#quotecopy {
+	font: 400 2.6em/1.25em 'Josefin Slab',arial,sans-serif;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	margin: 0px 0px 0px 584px;
+	color: #fff;
+}
+
+#quotetop {
+	font: 700 2.6em/1.25em 'Josefin Slab',arial,sans-serif;
+	font-size: 28px;
+	text-align: center;
+	position: relative;
+	margin: -77px 0px 0px 171px;
+	color: #6FBEC8;
+}
+
+#quotebottom {
+	font: 400 2.6em/1.25em 'Josefin Slab',arial,sans-serif;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	margin: 0px 0px 0px -1px;
+	color: #383838;
+}
+
+#attribschool{
+	font: 400 2.6em/1.25em 'Josefin Slab',arial,sans-serif;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	margin: 0px 0px 0px 301px;
+	color: #383838;
+}
+
+#formhead {
+	font: 400 2.6em/1.25em 'Josefin Slab',arial,sans-serif;
+	margin: 0em 0 .1em;
+	text-align: center;
+	position: relative;
+	color: #4D4D4D;
+	padding: 53px 0px 18px 0px;
+}
+
+#schoolform {
+	width: 26%;
+	height: 377px;
+	float: right;
+	margin: -134px 244px 0px 0px;
+	background-color: rgb(111, 190, 200);
+	text-align: center;
+	font: 400 17px 'Josefin Slab',arial,sans-serif;
+	line-height: 37px;
+}
+
+#fromtitle {
+	width: 100%;
+	background-color: #FFC948;
+	padding: 16px 0px 6px;
+	font-size: 13px;
+}
+
+#schoolform li {
+	list-style: none;
+}
+
+.topreturn{
+	display: block;
+	position: relative;
+	margin: 21% 0 0 50%;
+	text-align: center;
+}
+
+.topreturn p{
+	font: 400 17px 'Josefin Slab',arial,sans-serif;
+}
+
+.topreturn a {
+	color: #4D4D4D;
+}
+
+.topreturn a:link {
+	text-decoration: none;
+}
+
+.rightYellow p {
+	margin-top: 3px;
+}
+
+.upYellow p {
+	margin-top: 3px;
+}
+
+.rightYellow {
+ margin: -100px 0px 0px 148px;
 }
 
 	/* COMPANY CONVERSION PAGE */
@@ -417,7 +642,6 @@ p .head {
 }
 
 #company_color {
-	width: 85%;
 	background-color: #EAEAE9;
 	margin: 0px 0px 0px -9px;
 	background: #eaeae9;
@@ -499,113 +723,7 @@ p .head {
 
 }
 
-.companybutton {
-	-moz-box-shadow:inset 0px 1px 0px 0px #ff9326;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #ff9326;
-	box-shadow:inset 0px 1px 0px 0px #ff9326;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f57f0a), color-stop(1, #ff9326) );
-	background:-moz-linear-gradient( center top, #f57f0a 5%, #ff9326 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f57f0a', endColorstr='#ff9326');
-	background-color:#f57f0a;
-	-moz-border-radius:6px;
-	-webkit-border-radius:6px;
-	border-radius:6px;
-	border:1px solid #b3b3b3;
-	display:inline-block;
-	color:#fafafa;
-	font-family:Arial;
-	font-size:16px;
-	font-weight:bold;
-	margin: 16px 74px 0px 0px;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:1px 1px 0px #6b696b;
-}
 
-.companybutton .school {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f57f0a), color-stop(1, #ff9326) );
-	background:-moz-linear-gradient( center top, #f57f0a 5%, #ff9326 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f57f0a', endColorstr='#ff9326');
-	background-color:#f57f0a;
-}
-
-.companybutton .he {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f57f0a), color-stop(1, #ff9326) );
-	background:-moz-linear-gradient( center top, #f57f0a 5%, #ff9326 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f57f0a', endColorstr='#ff9326');
-	background-color:#f57f0a;
-}
-
-
-
-}.companybutton:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff9326), color-stop(1, #f57f0a) );
-	background:-moz-linear-gradient( center top, #ff9326 5%, #f57f0a 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9326', endColorstr='#f57f0a');
-	background-color:#ff9326;
-}
-}.companybutton:active {
-	position:relative;
-	top:1px;
-}
-/* END OF CONTACT US FORM */
-
-
-#company_column2 ul {
-	margin: 10px 64px 0px -12px;
-}
-
-#company_column2 li {
-	font-family: 'Josefin Slab', sans-serif;
-	list-style: none;
-	text-align: right;
-	line-height: 42px;
-}
-
-#company_vp_column1 {
-	border:2px solid #cdcccc;
-	width: 199px;
-	height: 400px;
-	margin: 211px 0px 0px 4px;
-	background-color: #EFEEEE;
-}
-
-#company_vp_column2 {
-	border:2px solid #cdcccc;
-	width: 199px;
-	height: 400px;
-	margin: -404px 0px 0px 205px;
-	background-color: #EFEEEE;
-
-}
-
-#company_vp_column3 {
-	border:2px solid #cdcccc;
-	width: 200px;
-	height: 400px;
-	margin: -404px 0px 0px 406px;
-	background-color: #EFEEEE;
-
-}
-
-#company_vp_column4 {
-	border:2px solid #cdcccc;
-	width: 200px;
-	height: 399px;
-	margin: -403px 0px 0px 608px;
-	background-color: #EFEEEE;
-
-}
-
-.convert {
-	font-family: 'Josefin Slab', sans-serif;
-text-align: center;
-padding: 18px;
-font-size: 18px;
-margin-top: 69px;
-color: #4D4D4D;
-
-}
 
  
 
@@ -616,7 +734,6 @@ color: #4D4D4D;
 }
 
 #he_color {
-	width: 85%;
 	background-color: #36AC9A;
 	margin: 0px 0px 0px -9px;
 }
