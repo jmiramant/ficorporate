@@ -348,6 +348,7 @@ p .head {
 .companyHeader {
 	background: #525354;
 	margin:0px 0px 0px -7px;
+	width: 101%;
 	height: 300px;
 }
 
@@ -440,8 +441,6 @@ p .head {
 	display: block;	
 }
 
-
-
 #si1 img {
 	width:100px;
 }
@@ -522,11 +521,11 @@ p .head {
 	width: 100%;
 }
 
-
 .school_section2 {
 	background: #E6E6E6;
 	height: 722px;
-	margin-top: -16px;
+	width: 101%;
+	margin: 4px 0px 0px -4px;
 }
 
 .school_section3 {
@@ -643,36 +642,244 @@ p .head {
 	font-size: 17px;
 }
 
+#formstyle ul {
+ 	list-style: none;
+}
+
 .schoolbutton{
 	image-url: url(assets/submit.png) no-repeat;
     cursor:pointer;
 }
 	/* COMPANY CONVERSION PAGE */
 
-.companydef {
-	height: 1439px;
+.company_section1 {
+	background-color: #E6E6E6;
+	background-image: url('images/map_narrow.png');
+	height: 760px;
 }
 
-#company_color {
-	background-color: #EAEAE9;
-	margin: 0px 0px 0px -9px;
-	background: #eaeae9;
-}
 
-.company_outer {
-	max-width: 928px;
-	margin: 0 auto;
+.company_section1 h2 {
+	font: 400 41px 'Josefin Slab',arial,sans-serif;
+	margin: -87px 0px 0px 0px;
+	text-align: center;
+	position: relative;
+	color: #4D4D4D;
 }
 
 .companyCopy {
-	margin: 23px 0px 39px 0px;
 	text-align: center;
+	width: 60%;
+	margin: 8px auto;
 	font-family: 'Josefin Slab',arial,sans-serif;
-	font-size: 22px;
-	line-height: 24px;
-	color: #525252;
+	color: #383838;
+	font-size: 18px;
+	line-height: 26px;
 }
 
+#companyformhead {
+	font: 400 2.6em/1.25em 'Josefin Slab',arial,sans-serif;
+	margin: 0em 0 .1em;
+	text-align: center;
+	position: relative;
+	color: #4D4D4D;
+	padding: 53px 0px 18px 0px;
+}
+
+.company_section2 {
+	background: #75C4D1;
+	height: 992px;
+	width: 101%;
+	margin: 4px 0px 0px -4px;
+}
+
+#companyfrom {
+	width: 25%;
+	height: 576px;
+	margin: -174px auto;
+	background-color: #7AC685;
+	text-align: center;
+	font: 400 17px 'Josefin Slab',arial,sans-serif;
+	line-height: 37px;
+	color: #fff;
+}
+
+#companyform li {
+	list-style: none;
+}
+
+#companyformtitle {
+	width: 100%;
+	background-color: #FFC948;
+	padding: 16px 0px 6px;
+	font-size: 13px;
+}
+
+
+#si6 img {
+	width: 44.5%;
+	padding: 1px 0px 13px 0px;
+}
+
+#si7 img {
+	width: 60%;
+}
+
+.companyicon {
+	background-color: #6FBEC8;
+	width: 15.5%;
+	height: 215px;
+	float: left;
+	margin: 0px 10px 0px 10px;
+	font-family: 'Josefin Slab',arial,sans-serif;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 35px;
+	color: #FFF;
+}
+
+.companyicon:hover {
+	cursor: pointer;
+	background-color: #7AC685;
+}
+
+#companywrap .companyicon.first-child {
+	background-color: #7AC685;	
+}
+
+#companywrap .first-child {
+	display: block;	
+}
+
+#companywrap .first-child {
+	display: block;	
+}
+
+#companywrap{
+	display: block;
+	width: 68%;
+	margin: 0px auto;
+	padding-left: 8%
+}
+
+.companychild {
+	display: none;
+	position: absolute;
+	width: 43%;
+	font-family: 'Josefin Slab',arial,sans-serif;
+	text-align: center;
+	margin: 263px 0px 0px 8%;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+.companychild {
+	font-size: 33px
+}
+} 
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+.companychild {
+	font-size: 22px
+}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+.companychild {
+	font-size: 16px
+}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+.companychild {
+	font-size: 20px
+}
+}
+
+.companysignupcopy {
+	text-align: center;
+	font-family: 'Josefin Slab',arial,sans-serif;
+	font-size: 23px;
+	color: #4D4D4D;
+	line-height: 27px;
+	margin: -13px 21% 0px 21%;
+}
+
+#companyvids {
+	float: right;
+	margin: -52px 6% 0px 0px;
+
+}
+
+#companyvids p {
+	text-align: center;
+	font-family: 'Josefin Slab',arial,sans-serif;
+	font-size: 20px;
+	color: #4D4D4D;
+	margin: 0px;
+}
+
+#vaultinfo img, #fiinfo img, #bwoodinfo img, #workinfo img {
+	height: 43px;
+}
+
+#vaultinfo p, #fiinfo p, #bwoodinfo p, #workinfo p {
+	margin: -9px 0px 0px 145px;
+}
+
+#vaultinfo {
+	float: right;
+	margin: -373px 11% 0px 0px;
+	width: 29%;
+	text-align: center;
+	font-family: 'Josefin Slab',arial,sans-serif;
+	font-size: 24px;
+	color: #4D4D4D;
+
+}
+
+#fiinfo {
+	float: right;
+	margin: -299px 11% 0px 0px;
+	width: 29%;
+	text-align: center;
+	font-family: 'Josefin Slab',arial,sans-serif;
+	font-size: 24px;
+	color: #4D4D4D;
+}
+
+#bwoodinfo {
+	float: right;
+	margin: -223px 11% 0px 0px;
+	width: 29%;
+	text-align: center;
+	font-family: 'Josefin Slab',arial,sans-serif;
+	font-size: 24px;
+	color: #4D4D4D;
+}
+
+#workinfo {
+	float: right;
+	margin: -148px 11% 0px 0px;
+	width: 29%;
+	text-align: center;
+	font-family: 'Josefin Slab',arial,sans-serif;
+	font-size: 24px;
+	color: #4D4D4D;
+}
+
+#wtbox {
+	display: block;
+	position: relative;
+	margin: 24px auto;
+	width: 1136px;
+	height: 576px;
+	background-color: #E6E6E6;
+	background-image: url('images/map.png');
+}
 
 .banner_bar {
 	height: 58px;
@@ -720,5 +927,137 @@ p .head {
 	width: 100%;
 }
 
+.companytopreturn {
+	display: block;
+	position: relative;
+	margin-top: -102px;
+	margin-right: 61px;
+	text-align: center;
+}
+
+.companytopreturn p{
+	font: 400 17px 'Josefin Slab',arial,sans-serif;
+}
+
+.companytopreturn a {
+	color: #4D4D4D;
+}
+
+.companytopreturn a:link {
+	text-decoration: none;
+}
+
+#companyformstyle {
+	line-height: 31px;
+	text-align: left;
+	padding-left: 37px;
+	font-size: 18px;
+}
+
+#companyformstyle ul {
+ 	list-style: none;
+}
+
+#si8 img {
+	width: 37%;
+	padding-bottom: 7px;
+}
+
+#si7 img {
+	width: 50.5%;
+	padding: 15px 0px 0px 0px;
+}
+
 	/* HIGHER EDUCATION CONVERSION PAGE */
+
+#heform {
+	width: 21%;
+	height: 456px;
+	margin: -166px 0px 0px 61%;
+	background-color: #E6E6E6;
+	text-align: center;
+	font: 400 17px 'Josefin Slab',arial,sans-serif;
+	line-height: 37px;
+}
+
+#hefromtitle {
+	width: 100%;
+	background-color: #00807F;
+	padding: 16px 0px 6px;
+	font-size: 13px;
+}
+
+.heicon {
+	background-color: #6FBEC8;
+	width: 15.5%;
+	height: 215px;
+	float: left;
+	margin: 0px 10px 0px 10px;
+	font-family: 'Josefin Slab',arial,sans-serif;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 35px;
+	color: #FFF;
+}
+
+.heicon:hover {
+	cursor: pointer;
+	background-color: #00807F;
+}
+
+#hewrap .heicon.first-child {
+	background-color: #00807F;	
+}
+
+#hewrap .first-child {
+	display: block;	
+}
+
+#hewrap .first-child {
+	display: block;	
+}
+
+#hewrap{
+	display: block;
+	width: 68%;
+	margin: 0px auto;
+	padding-left: 8%
+}
+
+.hechild {
+	display: none;
+	position: absolute;
+	width: 43%;
+	font-family: 'Josefin Slab',arial,sans-serif;
+	text-align: center;
+	margin: 263px 0px 0px 8%;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+.hechild {
+	font-size: 33px
+}
+} 
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+.hechild {
+	font-size: 22px
+}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+.hechild {
+	font-size: 16px
+}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+.hechild {
+	font-size: 20px
+}
+}
 
