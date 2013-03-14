@@ -65,7 +65,7 @@ h3 {
 }
 
 .topnavlist li {
-	list-style-image:url('assets/Arrows/SmallBulletYellow.png');
+	list-style-image:url('assets/SmallBulletYellow.png');
 	padding: 4px 0px 7px 0px;
 }
 
@@ -105,9 +105,10 @@ h3 {
 
 .signup span {
 	float: right;
-	width: 109px;
+	font-size: 24px;
+	width: 79%;
 	text-align: center;
-	padding: 15px 23px 0px 0px;
+	padding: 10px 15px 0px 0px;
 }
 .signup a {
  	color: #000;
@@ -321,7 +322,7 @@ p .head {
 .down_arrow {
 	height: 60px;
 	width: 60px;
-	background: url('assets/Arrows/downYellow.png') no-repeat;
+	background: url('assets/downYellow.png') no-repeat;
 	background-size: 60px 60px;
 	display: inline-block;
 	margin: 0 auto;
@@ -330,7 +331,7 @@ p .head {
 .down_arrow_top {
 	height: 60px;
 	width: 60px;
-	background: url('assets/Arrows/downYellow.png') no-repeat;
+	background: url('assets/downYellow.png') no-repeat;
 	background-size: 60px 60px;
 	display: inline-block;
 	margin: 22px;
@@ -400,12 +401,13 @@ p .head {
 
 #schoolVids {
 	float: left;
-	margin: 41px -3% 0 13%;
+	margin: 70px 0 0 17%;
 }
 
 .signupcopy {
 	text-align: center;
-	width: 34%;
+	width: 43%;
+	margin-top: 67px;
 	margin-left: 15%;
 	font-family: 'Josefin Slab',arial,sans-serif;
 	font-size: 23px;
@@ -523,7 +525,7 @@ p .head {
 
 .school_section2 {
 	background: #E6E6E6;
-	height: 678px;
+	height: 722px;
 	margin-top: -16px;
 }
 
@@ -583,10 +585,9 @@ p .head {
 }
 
 #schoolform {
-	width: 26%;
-	height: 377px;
-	float: right;
-	margin: -134px 244px 0px 0px;
+	width: 21%;
+	height: 456px;
+	margin: -166px 0px 0px 61%;
 	background-color: rgb(111, 190, 200);
 	text-align: center;
 	font: 400 17px 'Josefin Slab',arial,sans-serif;
@@ -607,7 +608,7 @@ p .head {
 .topreturn{
 	display: block;
 	position: relative;
-	margin: 21% 0 0 50%;
+	margin-top: 20px;
 	text-align: center;
 }
 
@@ -635,6 +636,17 @@ p .head {
  margin: -100px 0px 0px 148px;
 }
 
+#formstyle {
+	line-height: 23px;
+	text-align: left;
+	padding-left: 51px;
+	font-size: 17px;
+}
+
+.schoolbutton{
+	image-url: url(assets/submit.png) no-repeat;
+    cursor:pointer;
+}
 	/* COMPANY CONVERSION PAGE */
 
 .companydef {
@@ -729,47 +741,4 @@ p .head {
 
 
 	/* HIGHER EDUCATION CONVERSION PAGE */
-.he_length {
-	min-height: 1000px;
-}
 
-#he_color {
-	background-color: #36AC9A;
-	margin: 0px 0px 0px -9px;
-}
-
-.heCopy {
-	margin: 23px 0px 39px 0px;
-	text-align: center;
-	font-family: 'Josefin Slab',arial,sans-serif;
-	color: #525252;
-}
-
-
-.banner_barSchool {
-	height: 58px;
-	width: 100%;
-	background-color: #DCC04D;
-	border-bottom: 1px solid #cdcccc;
-}
-.banner_barSchool2 {
-	height: 58px;
-	width: 100%;
-	background-color: #DCC04D;
-	border-bottom: 1px solid #cdcccc;
-	margin-top: -50px; 
-}
-
-.banner_barHE {
-	height: 58px;
-	width: 100%;
-	background-color: #319B8B;
-	border-bottom: 1px solid #cdcccc;
-}
-.banner_barHE2 {
-	height: 58px;
-	width: 100%;
-	background-color: #319B8B;
-	border-bottom: 1px solid #cdcccc;
-	margin-top: -50px; 
-}

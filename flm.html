@@ -37,7 +37,7 @@
 						<li><a href="#he" class="scroll">Higher Education</a></li>
 					</ul>
 				</div>
-				<div class="signup"><a href="http://na-sj02.marketo.com/lp/everfi/FLM_General-signup.html" class="various fancybox.iframe"><span>Sign Up</span></a>
+				<div class="signup"><a href="http://na-sj02.marketo.com/lp/everfi/FLM_General-signup.html" class="various fancybox.iframe"><span>Contact Us</span></a>
 				</div>
 			</div>
 		</div>
@@ -47,7 +47,7 @@
 				<div id="outer">
 					<h2>EverFi Recognizes</h2><h1>Financial Literacy Month</h1>
 					<p class="head intro">As Financial Literacy Month arrives each April, headlines paint a bleak picture of the state of financial literacy in the United States.  And many of the indicators are not good. <br /><br />Despite the best efforts of educators, the financial preparedness resources available to students are inadequate.  Currently, fewer than 20 US states mandate that high school students complete a course in financial literacy before high school graduation. Add to that the fact that only 26% of parents feel well prepared to teach their kids about basic personal finance.</p>
-					<a class="various fancybox.iframe" id="centering" title="The Imporance of Financial Literacy Month" href="http://www.youtube.com/embed/WD0UtqEjl4c"><img src="file:///Users/jmiramant/Desktop/Screen%20Shot%202013-03-06%20at%2012.17.36%20PM.png"></a>
+					<a class="various fancybox.iframe" id="centering" title="The Imporance of Financial Literacy Month" href="http://www.youtube.com/embed/WD0UtqEjl4c"><img src="assets/tom_video.png"></a>
 				</div>
 			</section>
 			<!-- NAV BUTTON -->
@@ -148,13 +148,63 @@
 				</div>
 				<div id="schoolform">
 					<div id="fromtitle"><h2>Sign Up to Get Invovled</h2></div>
-					<form class="lpeRegForm formNotEmpty" method="post" enctype="application/x-www-form-urlencoded" action="http://app-sj02.marketo.com/index.php/leadCapture/save" id="mktForm_6" name="mktForm_6" _lpchecked="1"><ul class="mktLblLeft"><li class="mktFormReq mktField"><label>First Name:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" name="FirstName" id="FirstName" type="text" value="" maxlength="255" tabindex="1"><span class="mktFormMsg"></span></span></li>
-						<li class="mktFormReq mktField"><label>Last Name:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" name="LastName" id="LastName" type="text" value="" maxlength="255" tabindex="2"><span class="mktFormMsg"></span></span></li>
-						<li class="mktFormReq mktField"><label>Company/Organization:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" name="Company" id="Company" type="text" value="" maxlength="255" tabindex="3"><span class="mktFormMsg"></span></span></li>
-						<li class="mktFormReq mktField"><label>Title:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" name="Title" id="Title" type="text" value="" maxlength="255" tabindex="4"><span class="mktFormMsg"></span></span></li>
-						<li class="mktFormReq mktField"><label>Email Address:</label><span class="mktInput"><input class="mktFormText mktFormEmail mktFReq" name="Email" id="Email" type="text" value="" maxlength="255" tabindex="5"><span class="mktFormMsg"></span></span></li>
-						<li class="mktField"><label>Phone Number:</label><span class="mktInput"><input class="mktFormText mktFormPhone" name="Phone" id="Phone" type="text" value="" maxlength="255" tabindex="6"><span class="mktFormMsg"></span></span></li>
-						<li id="mktFrmButtons"><label>&nbsp;</label><input id="mktFrmSubmit" type="submit" style="width: auto; overflow: visible; padding-left: .25em; padding-right: .25em;" value="Submit" name="submitButton" onclick="formSubmit(document.getElementById(&quot;mktForm_6&quot;)); return false;">&nbsp;<input style="display: none;" id="mktFrmReset" type="reset" value="Clear" name="resetButton" onclick="formReset(document.getElementById(&quot;mktForm_6&quot;)); return false;"></li>  </ul>
+					<form class="lpeRegForm formNotEmpty" id="formstyle" method="post" enctype="application/x-www-form-urlencoded" action="http://app-sj02.marketo.com/index.php/leadCapture/save" id="mktForm_6" name="mktForm_6" _lpchecked="1">
+						<ul class="mktLblLeft">
+							<li class="mktFormReq mktField">
+								<label>First Name:</label>
+								<br />
+								<span class="mktInput">
+									<input class="mktFormText mktFormString mktFReq" name="FirstName" id="FirstName" type="text" value="" maxlength="255" tabindex="1">
+									<span class="mktFormMsg"></span>
+								</span>
+							</li>
+							<li class="mktFormReq mktField">
+								<label>Last Name:</label>
+								<br />
+								<span class="mktInput">
+									<input class="mktFormText mktFormString mktFReq" name="LastName" id="LastName" type="text" value="" maxlength="255" tabindex="2">
+									<span class="mktFormMsg"></span>
+								</span>
+							</li>
+						<li class="mktFormReq mktField">
+							<label>Company/Organization:</label>
+							<br />
+							<span class="mktInput">
+								<input class="mktFormText mktFormString mktFReq" name="Company" id="Company" type="text" value="" maxlength="255" tabindex="3">
+								<span class="mktFormMsg"></span>
+							</span>
+						</li>
+						<li class="mktFormReq mktField">
+							<label>Title:</label>
+							<br />
+							<span class="mktInput">
+								<input class="mktFormText mktFormString mktFReq" name="Title" id="Title" type="text" value="" maxlength="255" tabindex="4">
+								<span class="mktFormMsg"></span>
+							</span>
+						</li>
+						<li class="mktFormReq mktField">
+							<label>Email Address:</label>
+							<br />
+							<span class="mktInput">
+								<input class="mktFormText mktFormEmail mktFReq" name="Email" id="Email" type="text" value="" maxlength="255" tabindex="5">
+								<span class="mktFormMsg"></span>
+							</span>
+						</li>
+						<li class="mktField">
+							<label>Phone Number:</label>
+							<br />
+							<span class="mktInput">
+								<input class="mktFormText mktFormPhone" name="Phone" id="Phone" type="text" value="" maxlength="255" tabindex="6">
+								<span class="mktFormMsg"></span>
+							</span>
+						</li>
+						<li id="mktFrmButtons">
+							<label>&nbsp;</label>
+							<input class="schoolbutton" id="mktFrmSubmit" type="submit" style="width: auto; overflow: visible; padding-left: .25em; padding-right: .25em;" value="Submit" name="submitButton" onclick="formSubmit(document.getElementById(&quot;mktForm_6&quot;)); return false;">
+							&nbsp;
+							<input style="display: none;" id="mktFrmReset" type="reset" value="Clear" name="resetButton" onclick="formReset(document.getElementById(&quot;mktForm_6&quot;)); return false;">
+						</li>  
+					</ul>
 						<span style="display:none;"><input type="text" name="_marketo_comments" value=""></span>
 						<input type="hidden" name="lpId" value="-1">
 						<input type="hidden" name="subId" value="180">
@@ -173,10 +223,10 @@
 				</div>
 				<div class="topreturn">
 					<div class="upYellow"><a href="#pgcolor" class="scroll">
-						<img src="assets/Arrows/upYellow.png"/>
+						<img src="assets/upYellow.png"/>
 						<p>TOP<p>
 						</a></div>
-						<div class="rightYellow"><a href="http://everfi.com/"><img src="assets/Arrows/rightYellow.png"/><p>HOME</p></a></div>
+						<div class="rightYellow"><a href="http://everfi.com/"><img src="assets/rightYellow.png"/><p>HOME</p></a></div>
 					</div>
 				</div>
 <!--
