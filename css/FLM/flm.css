@@ -656,7 +656,7 @@ p .head {
 .company_section1 {
 	background-color: #E6E6E6;
 	background-image: url('../../assets/flm/map_narrow.png');
-	height: 760px;
+	height: 737px;
 }
 
 
@@ -674,7 +674,7 @@ p .head {
 	margin: 8px auto;
 	font-family: 'Josefin Slab',arial,sans-serif;
 	color: #383838;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 26px;
 }
 
@@ -698,8 +698,8 @@ p .head {
 #companyfrom {
 	width: 25%;
 	height: 576px;
-	margin: -495px auto;
-	background-color: #7AC685;
+	margin: -553px auto auto;
+	background-color: #363636;
 	text-align: center;
 	font: 400 17px 'Josefin Slab',arial,sans-serif;
 	line-height: 37px;
@@ -745,8 +745,8 @@ p .head {
 
 #companydownload img {
 	display: block;
-	margin: 10px 0px 10px 75px;
-	height: 102px;
+	margin: 10px 0px 10px -4px;
+
 }
 
 #companydownload p {
@@ -759,7 +759,8 @@ p .head {
 }
 
 #rightadjust {
-	margin-top: 323px;
+	margin-top: -167px;
+	margin-right: -114px;
 }
 
 #si6 img {
@@ -868,12 +869,18 @@ p .head {
 	margin: 0px;
 }
 
-#vaultinfo img, #fiinfo img, #bwoodinfo img, #workinfo img {
-	height: 43px;
+#vaultinfo h2, #fiinfo h2, #bwoodinfo h2, #workinfo h2 {
+	font: 400 24px 'Josefin Slab',arial,sans-serif;
+	margin: 0em 0 .1em;
+	text-align: center;
+	position: relative;
+	color: #4D4D4D;
+	font-weight: 700;
 }
 
 #vaultinfo p, #fiinfo p, #bwoodinfo p, #workinfo p {
-	margin: -9px 0px 0px 145px;
+	margin-top: 0px;
+	font-size: 22px;
 }
 
 #vaultinfo {
