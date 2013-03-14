@@ -26,7 +26,7 @@
 
 #pgcolor {
 	background-color: #75C4D1;
-	background-image: url('assets/flm/map.png');
+	background-image: url('../../assets/flm/map.png');
 	margin: 8px 0px 0px -8px;
 }
 
@@ -64,7 +64,7 @@ h3 {
 }
 
 .topnavlist li {
-	list-style-image:url('assets/flm/SmallBulletYellow.png');
+	list-style-image:url('../../assets/flm/SmallBulletYellow.png');
 	padding: 4px 0px 7px 0px;
 }
 
@@ -201,7 +201,7 @@ p .head {
 
 #funnel_bg {
 	background-color: #75C4D1;
-	background-image: image-url('assets/flm/map_narrow.png');
+	background-image: image-url('../../assets/flm/map_narrow.png');
 	background-repeat:no-repeat;
 	background-size:100% 250px;
 	margin: -26px -9px 0px -9px;
@@ -269,7 +269,7 @@ p .head {
 	height: 461px;
 	width: 1440px;
 	margin: -1px 0px 0px -78px;
-	background-image: url(assets/flm/student_background.png);
+	background-image: url(../../assets/flm/student_background.png);
 	background-repeat: no-repeat;
 }
 
@@ -322,7 +322,7 @@ p .head {
 .down_arrow {
 	height: 60px;
 	width: 60px;
-	background: url('assets/flm/downYellow.png') no-repeat;
+	background: url('../../assets/flm/downYellow.png') no-repeat;
 	background-size: 60px 60px;
 	display: inline-block;
 	margin: 0 auto;
@@ -331,7 +331,7 @@ p .head {
 .down_arrow_top {
 	height: 60px;
 	width: 60px;
-	background: url('assets/flm/downYellow.png') no-repeat;
+	background: url('../../assets/flm/downYellow.png') no-repeat;
 	background-size: 60px 60px;
 	display: inline-block;
 	margin: 22px;
@@ -358,7 +358,7 @@ p .head {
 }
 .school_section1 {
 	background-color: #FFC948;
-	background-image: url('assets/flm/map_narrow.png');
+	background-image: url('../../assets/flm/map_narrow.png');
 	height: 730px;
 }
 
@@ -523,7 +523,7 @@ p .head {
 
 .school_section2 {
 	background: #E6E6E6;
-	background-image: url('assets/flm/map.png');
+	background-image: url('../../assets/flm/map.png');
 	height: 722px;
 	width: 101%;
 	margin: 4px 0px 0px -4px;
@@ -648,14 +648,14 @@ p .head {
 }
 
 .schoolbutton{
-	image-url: url(assets/flm/submit.png) no-repeat;
+	image-url: url(../../assets/flm/submit.png) no-repeat;
     cursor:pointer;
 }
 	/* COMPANY CONVERSION PAGE */
 
 .company_section1 {
 	background-color: #E6E6E6;
-	background-image: url('assets/flm/map_narrow.png');
+	background-image: url('../../assets/flm/map_narrow.png');
 	height: 760px;
 }
 
@@ -924,7 +924,7 @@ p .head {
 	width: 1136px;
 	height: 576px;
 	background-color: #E6E6E6;
-	background-image: url('assets/flm/map.png');
+	background-image: url('../../assets/flm/map.png');
 }
 
 .banner_bar {
@@ -1018,7 +1018,7 @@ p .head {
 .he_section1 {
 
 	background-color: #E6E6E6;
-	background-image: url('assets/map_narrow.png');
+	background-image: url('../../assets/map_narrow.png');
 	height: 735px;
 }
 
@@ -1128,7 +1128,7 @@ p .head {
 	width: 101%;
 	margin: 4px 0px 0px -4px;
 
-	background-image: url('assets/flm/map.png');
+	background-image: url('../../assets/flm/map.png');
 }
 
 #hevids {
