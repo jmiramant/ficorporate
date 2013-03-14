@@ -15,16 +15,8 @@
 
 	<!-- <script type="text/javascript" src="js/modernizr.custom.04022.js"></script> -->
 
-
 </head>
-
 <body>
-	<!-- Header Code (DELETE BEFORE PUSHING) -->
-	<div id="fit">
-		<div class="headerbar">
-
-		</div>
-		<!-- END of Header Code -->
 		<div class="sidebar">
 			<div id="border">
 				<div class="homenav"><a href="#fit" class="scroll"><span>Top</span></a>
@@ -83,15 +75,15 @@
 				<div class="funnelWrap">
 					<a href="#school" class="scroll">
 						<div class="funnelbox" id="funnelSchool">K-12 Resources</div>
-						<div class="funnelchild"><p>Learn about EverFi’s adaptive learning platforms and our national network of schools</p></div>
+						<div class="funnelchild"><img src="assets/downYellow.png" style="margin-top:-45px"><p>Learn about EverFi’s adaptive learning platforms and our national network of schools</p></div>
 					</a>
 					<a href="#company" class="scroll">
 						<div class="funnelbox" id="funnelCompany">Sponsor Resources</div>
-						<div class="funnelchild"><p>Hear more about how the private sector is fueling education innovation</p></div>
+						<div class="funnelchild"><img src="assets/downYellow.png" style="margin-top:-45px"><p>Hear more about how the private sector is fueling education innovation</p></div>
 					</a>
 					<a href="#he" class="scroll">
 						<div class="funnelbox" id="funnelHe">Higher Education Resources</div>
-						<div class="funnelchild"><p>Find out more about how we’re helping college students build critical financial skills</p></div>
+						<div class="funnelchild"><img src="assets/downYellow.png" style="margin-top:-45px"><p>Find out more about how we’re helping college students build critical financial skills</p></div>
 					</a>
 				</div>
 				<div id="bgimg1"></div>
@@ -222,10 +214,17 @@
 				</div>
 			</div>
 			<div class="company_section2">
-				<div><h2 id="companyformhead">Learn more about Sponsorship<br/>Opportunities in Your Community...</h2></div>
-				<p class="companysignupcopy">Join over 1000 brands strengthening their community engagement through innovative education initiative.<br /><br />Sign up now to launch a program during Finacial Literacy Month</p>
+				<div><h2 id="companyformhead">Learn more about Sponsorship<br/>Opportunities in Your Community</h2></div>
+				<p class="companysignupcopy">Join over 1000 brands strengthening their community engagement through innovative education initiatives.</p>
 				<div id="wtbox">
-				<a class="various fancybox.iframe" title="Vault Course Overview" href="http://www.brainshark.com/everfi/vu?pi=zHvz10iWObz9uaAz0"><img src="assets/Vault_Video.png"></a>
+					<div id="companybs">	
+						<a class="various fancybox.iframe" title="Vault Course Overview" href="http://www.brainshark.com/everfi/vu?pi=zHvz10iWObz9uaAz0"><img src="assets/bs_play.png"></a>
+						<p>Learn How EverFi Can Impact Your Business</p>
+					</div>
+					<div id="companydownload">
+						<a href="http://www.cbs58.com/features/making-milwaukee-great/Spring-Bank-182363761.html" target="_blank"><img src="assets/news.png"></a>
+						<p>View An Example Media Story from EverFi Partnership</p>
+					</div>
 				<div id="companyfrom">
 					<div id="companyformtitle"><h2>Bring EverFi to<br />Your Community</h2></div>
 					<form class="lpeRegForm formNotEmpty" id="companyformstyle" method="post" enctype="application/x-www-form-urlencoded" action="http://app-sj02.marketo.com/index.php/leadCapture/save" id="mktForm_6" name="mktForm_6" _lpchecked="1">
@@ -300,26 +299,27 @@
 						<input type="hidden" name="_mkt_disp" value="return">
 						<input type="hidden" name="_mkt_trk" value="">
 					</form></div>
+					<div id="rightadjust">
+						<div id="vaultinfo">
+								<img src="assets/Vault.png">
+									<p>4th-6th Grade</p>
+							</div>
 
-					<div id="vaultinfo">
-							<img src="assets/Vault.png">
-								<p>4th-6th Grade</p>
-						</div>
+								<div id="fiinfo">
+									<img src="assets/EverFi.png">
+									<p>High School</p>
+								</div>				
 
-							<div id="fiinfo">
-								<img src="assets/EverFi.png">
-								<p>High School</p>
-							</div>				
+							<div id="bwoodinfo">
+								<img src="assets/Buttonwood.png">
+								<p>Higher Education</p>
+							</div>
 
-						<div id="bwoodinfo">
-							<img src="assets/Buttonwood.png">
-							<p>Higher Education</p>
-						</div>
-
-						<div id="workinfo">
-							<img src="assets/@Work.png">
-							<p>Adult Learners</p>
-						</div>
+							<div id="workinfo">
+								<img src="assets/@Work.png">
+								<p>Adult Learners</p>
+							</div>
+					</div>
 
 					<div id="companyvids">
 						<a class="various fancybox.iframe" title="EverFi Course Overview" href="http://www.youtube.com/embed/44QWf11zF0Y"><img src="assets/fi_video"></a>
@@ -344,7 +344,7 @@
 
 		<div class="companyHeader"></div>
 		<div class="school_length">
-			<div class="company_section1" id="he">
+			<div class="he_section1" id="he">
 				<img src="assets/he_tag.png" id="schoolimg"/>
 				<h2>Empower Students to<br />Navigate their Financial Future</h2>
 				<p class="schoolcopy">Student loans, debt, and credit card bills are not top of mind for most college students, yet the financial decisions they make today will have long-term effects on their lives. Poor financial awareness jeopardizes college completion, the quality of learning outcomes, and alumni satisfaction. Now more than ever, students nationwide are experiencing greater financial stress and need for preventive financial education.</p>
@@ -382,11 +382,12 @@
 					<a href="#formhead" class="scroll down_arrow"></a>
 				</div>
 			</div>
-			<div class="company_section2">
+			<div class="he_section2">
 				<div><h2 id="formhead">Bring financial education to your campus...</h2></div>
-				<p class="signupcopy">Join hundreds of campuses across the country that are helping students take charge of their financial futures.<br /><br />Sign up to prepare your students.</p>
-				<div id="schoolVids">
-					<a class="various fancybox.iframe" title="Vault Course Overview" href="http://www.youtube.com/embed/YWtGU8YrwD4"><img src="assets/Vault_Video.png"></a>
+				<p class="hesignupcopy">Join hundreds of campuses across the country that are helping students take charge of their financial futures.<br /><br />Sign up to learn how to bring EverFi to your campus.</p>
+				<div id="hevids">
+					<a class="various fancybox.iframe" title="Buttonwood Course Overview" href="http://www.youtube.com/embed/SonHFmkV-IA?list=UU1k6mv5ZQlj_wLrxC1MkOSg"><img src="assets/bwood_play.png"></a>
+						<p>Learn How EverFi Can Impact Your Business</p>
 				</div>
 				<div id="heform">
 					<div id="hefromtitle"><h2>Sign Up to Get Invovled</h2></div>
@@ -412,7 +413,14 @@
 				  <input type="hidden" name="_mkt_disp" value="return">
       <input type="hidden" name="_mkt_trk" value="">
   </form>
-				</div>
+		  	<div id="downldbx"><a href="">
+		  		<p>Download the Money Matters on Campus Report</p>
+		  		<img src="assets/Download.png"></a>
+		  	</div>
+		  	<div id="infobox"><a href="">
+		  		<img src="assets/inograph.png">
+		  			<p>Veiw the <strong>Money Matters on Campus Infographic</strong></p></a></div>
+					</div>
 				<div class="topreturn">
 					<div class="upYellow"><a href="#pgcolor" class="scroll">
 						<img src="assets/upYellow.png"/>
@@ -421,39 +429,6 @@
 						<div class="rightYellow"><a href="http://everfi.com/"><img src="assets/rightYellow.png"/><p>HOME</p></a></div>
 					</div>
 				</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		</div>
 	</div>
 </div>
